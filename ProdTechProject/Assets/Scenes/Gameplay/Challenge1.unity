@@ -699,7 +699,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 15
   indentLevel: 0
-  storyText: Get him out of here!
+  storyText: Release him at once! He was just eating you brainless guard! What were
+    you thinking!
   description: 
   character: {fileID: 98118099}
   portrait: {fileID: 0}
