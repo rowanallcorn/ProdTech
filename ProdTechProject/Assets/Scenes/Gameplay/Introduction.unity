@@ -262,7 +262,6 @@ GameObject:
   - component: {fileID: 120669674}
   - component: {fileID: 120669673}
   - component: {fileID: 120669699}
-  - component: {fileID: 120669698}
   - component: {fileID: 120669697}
   - component: {fileID: 120669696}
   - component: {fileID: 120669695}
@@ -271,6 +270,7 @@ GameObject:
   - component: {fileID: 120669692}
   - component: {fileID: 120669684}
   - component: {fileID: 120669675}
+  - component: {fileID: 120669700}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -353,7 +353,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 1436647766}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 72e6fcb038905f34eb8a3a0fe8b80792, type: 3}
+  portrait: {fileID: 21300000, guid: 1e40ab6bf4303384b9e8851f00dea745, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 1966281674}
@@ -642,7 +642,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Oh!! Oh, it's you!! I've been looking all over for you!!!
   description: 
-  character: {fileID: 1436647766}
+  character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -679,7 +679,6 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 120669686}
-  - {fileID: 120669698}
   - {fileID: 120669699}
   - {fileID: 120669676}
   - {fileID: 120669681}
@@ -697,6 +696,7 @@ MonoBehaviour:
   - {fileID: 120669695}
   - {fileID: 120669694}
   - {fileID: 120669679}
+  - {fileID: 120669700}
 --- !u!114 &120669688
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -765,7 +765,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 120669687}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 120669675}
   variables: []
   description: 
   stepPause: 0
@@ -971,36 +972,6 @@ MonoBehaviour:
   move: 0
   shiftIntoPlace: 0
   waitUntilFinished: 0
---- !u!114 &120669698
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 120669672}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 17
-  indentLevel: 0
-  display: 2
-  stage: {fileID: 0}
-  character: {fileID: 1436647766}
-  replacedCharacter: {fileID: 0}
-  portrait: {fileID: 0}
-  offset: 0
-  fromPosition: {fileID: 0}
-  toPosition: {fileID: 0}
-  facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
-  moveDuration: 1
-  shiftOffset: {x: 0, y: 0}
-  move: 0
-  shiftIntoPlace: 0
-  waitUntilFinished: 0
 --- !u!114 &120669699
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1031,6 +1002,25 @@ MonoBehaviour:
   move: 0
   shiftIntoPlace: 0
   waitUntilFinished: 0
+--- !u!114 &120669700
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 120669672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 26
+  indentLevel: 0
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: Challenge1
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
 --- !u!1 &545030988
 GameObject:
   m_ObjectHideFlags: 0
@@ -1303,7 +1293,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 0}
+  selectedFlowchart: {fileID: 120669690}
 --- !u!4 &1255361780
 Transform:
   m_ObjectHideFlags: 1
