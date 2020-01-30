@@ -1,11 +1,24 @@
-Situation 2: 
+Situation 3: 
 
-Guard - King! We found Ribbisford eating flies last Tuesday just outside of his farm near the water hole! What shall we do with him? 
+Guard - Your Royal Highness, Purrly here was in the courtyard during the Jesters performance earlier today. During one of his acts she threw an 
+orange at his head and started heckling him! 
 
-Diologue Answer 1: Release Ribbidsford
+Purrly - The Jesters performance was awful your highness! he used the same performance last week! 
 
-Dilogue Answer 2: Put Ribbidsford in prison
+Guard - Quiet you fool! What shall we do with him? 
 
-Extended Diologue Answer 1: Release him at once! He was just eating you brainless guard!   
+Answer 1: Release Purrly
 
-Extended Diologue Answer 2: Throw him in prison for a year! - Correct answer
+Answer 2: Publicly humilliate Purrly - Correct Answer 1
+
+Answer 3: Kill Purrly - Correct Answer 2
+
+Answer 4: Kill the Guard
+
+Extended Diologue Answer 1: Release her! Its about time someone did something to that stupid Jester for his silly tricks. 
+
+Extended Diologue Answer 2: Have everyone gathered at the courtyard and tie her up to a pole so others can pelt him with oranges to give him a tatse of her own medicine! 
+
+Extended Diologue Answer 3: Off with her head! 
+
+Extended Diologue Answer 4: Off with your head you foolish guard for bringing this rediclulous situation to me! Guards Take him away!
