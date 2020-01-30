@@ -1,0 +1,13 @@
+Situation 1: 
+
+Cathy - Your Royal Highness! There has been a predicament between two merchants bickering to me on whose eggplant is worth more. Whose has the highest price? 
+
+Answer 1: Smaller, more purple eggplant - Correct Answer
+
+Answer 2: Bigger, less purple eggplant  
+
+Extended diologue answer 1: The smaller eggplant of course! Ensure that seller gets more money for their product! 
+
+Extended diologue answer 2: The Bigger eggplant of course! Ensure that seller gets more money for their product!  
+
+Cathy - Yes of course your Royal Highness! Thank you for your assistance! 
