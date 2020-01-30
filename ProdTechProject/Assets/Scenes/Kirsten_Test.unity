@@ -934,6 +934,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2546777913247753174, guid: 46e658825d3703640a6eaac0c74b2d4c,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ee7cb0360478d994891869c64ff10f84,
+        type: 3}
     - target: {fileID: 2546777913849320166, guid: 46e658825d3703640a6eaac0c74b2d4c,
         type: 3}
       propertyPath: portraits.Array.size
