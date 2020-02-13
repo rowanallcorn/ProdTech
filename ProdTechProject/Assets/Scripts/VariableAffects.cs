@@ -17,7 +17,7 @@ public class VariableAffects : MonoBehaviour
     [Tooltip("The current beetroot value of the scene")]
     public int beetrootValue;
 
-    //sceneNumber is the scene you are on- set it in public editor
+    //SceneCurrent is the scene you are on- set it in public editor
     //money is the money value you have
     //prestige is the current prestige
     //beetroot is the last one
@@ -26,6 +26,8 @@ public class VariableAffects : MonoBehaviour
         moneyValue = PlayerPrefs.GetInt("money");
         prestigeValue = PlayerPrefs.GetInt("prestige");
         beetrootValue = PlayerPrefs.GetInt("beetroot");
+
+        
     }
 
     /// <summary>
@@ -45,8 +47,13 @@ public class VariableAffects : MonoBehaviour
         beetroot.text = ("Money: " + beetrootValue + "/10");
 
         if (moneyValue == 0 || prestigeValue == 0 || beetrootValue == 0)
-            SceneManager.LoadScene("LoseScene");
+        { SceneManager.LoadScene("LoseScene"); }
 
+        PlayerPrefs.SetInt("money", moneyValue);
+        PlayerPrefs.SetInt("prestige", prestigeValue);
+        PlayerPrefs.SetInt("beetroot", beetrootValue);
+
+        PlayerPrefs.SetString(SceneCurrent, )
     }
 
 }
