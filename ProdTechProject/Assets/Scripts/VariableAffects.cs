@@ -17,6 +17,16 @@ public class VariableAffects : MonoBehaviour
     [Tooltip("The current beetroot value of the scene")]
     public int beetrootValue;
 
+    //sceneNumber is the scene you are on- set it in public editor
+    //money is the money value you have
+    //prestige is the current prestige
+    //beetroot is the last one
+    private void Start()
+    {
+        moneyValue = PlayerPrefs.GetInt("money");
+        prestigeValue = PlayerPrefs.GetInt("prestige");
+        beetrootValue = PlayerPrefs.GetInt("beetroot");
+    }
 
     /// <summary>
     /// updates the old variables using numbers supplied by the fungus. the variables are the CHANGE in variable, not the new one. 
@@ -24,11 +34,11 @@ public class VariableAffects : MonoBehaviour
     /// <param name="moneyChange"></param>
     /// <param name="prestigeChange"></param>
     /// <param name="beetrootChange"></param>
-    void updateVariableValues(int moneyChange, int prestigeChange, int beetrootChange)
+    public void updateVariableValues(int moneyChange, int prestigeChange, int beetrootChange)
     {
-        moneyValue += moneyChange;
-        prestigeValue += prestigeChange;
-        beetrootValue += beetrootChange; 
+        moneyValue = moneyValue + moneyChange;
+        prestigeValue = prestigeValue+ prestigeChange;
+        beetrootValue = beetrootValue+ beetrootChange; 
 
         money.text = ("Money: " + moneyValue + "/10");
         prestige.text = ("Prestige: " + prestigeValue + "/10");
