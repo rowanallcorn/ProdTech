@@ -23,6 +23,8 @@ public class VariableAffects : MonoBehaviour
     //beetroot is the last one
     private void Start()
     {
+        PlayerPrefs.SetString("SceneCurrent", SceneManager.GetActiveScene().name);
+
         moneyValue = PlayerPrefs.GetInt("money");
         prestigeValue = PlayerPrefs.GetInt("prestige");
         beetrootValue = PlayerPrefs.GetInt("beetroot");
@@ -53,7 +55,6 @@ public class VariableAffects : MonoBehaviour
         PlayerPrefs.SetInt("prestige", prestigeValue);
         PlayerPrefs.SetInt("beetroot", beetrootValue);
 
-        PlayerPrefs.SetString(SceneCurrent, )
     }
 
 }

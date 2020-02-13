@@ -4,15 +4,17 @@ using UnityEngine;
 
 public class ResetPrefs : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public int MoneySt;
+    public int prestSt;
+    public int beetSt; 
 
-    // Update is called once per frame
-    void Update()
+    public void resetAllPrefs()
     {
-        
+        PlayerPrefs.SetInt("money", MoneySt);
+        PlayerPrefs.SetInt("prestige", prestSt);
+        PlayerPrefs.SetInt("beetroot", beetSt);
+
+        PlayerPrefs.SetString("SceneCurrent", "Introduction"); 
+
     }
 }

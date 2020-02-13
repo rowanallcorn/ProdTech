@@ -317,7 +317,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Continue
+  m_Text: Start/ Continue
 --- !u!222 &662399486
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -648,6 +648,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 716140de27189b44190cf4993d6d5948, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MoneySt: 0
+  prestSt: 0
+  beetSt: 0
 --- !u!114 &1596688918
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -838,11 +841,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1627558003}
-        m_MethodName: 
+        m_MethodName: StartAtLastScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
