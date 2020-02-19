@@ -32,7 +32,7 @@ public class VariableAffects : MonoBehaviour
         //update the text to reflect this update
         money.text = ("Money: " + moneyValue + "/10");
         prestige.text = ("Prestige: " + prestigeValue + "/10");
-        beetroot.text = ("Money: " + beetrootValue + "/10");
+        beetroot.text = ("Beetroot: " + beetrootValue + "/10");
     }
 
     /// <summary>
@@ -52,7 +52,7 @@ public class VariableAffects : MonoBehaviour
 
         money.text = ("Money: " + moneyValue + "/10");
         prestige.text = ("Prestige: " + prestigeValue + "/10");
-        beetroot.text = ("Money: " + beetrootValue + "/10");
+        beetroot.text = ("Beetroot: " + beetrootValue + "/10");
 
         if (moneyValue == 0 || prestigeValue == 0 || beetrootValue == 0)
         { SceneManager.LoadScene("LoseScene"); }
