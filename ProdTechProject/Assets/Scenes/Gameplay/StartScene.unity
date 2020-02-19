@@ -648,9 +648,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 716140de27189b44190cf4993d6d5948, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MoneySt: 0
-  prestSt: 0
-  beetSt: 0
+  MoneySt: 5
+  prestSt: 5
+  beetSt: 5
 --- !u!114 &1596688918
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -797,6 +797,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6196a9ace5ba75d49a7d28985036d85f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MoneySt: 5
+  prestSt: 5
+  beetSt: 5
 --- !u!114 &1627558004
 MonoBehaviour:
   m_ObjectHideFlags: 0
