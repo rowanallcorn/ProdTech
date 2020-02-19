@@ -924,7 +924,7 @@ MonoBehaviour:
       typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       typeFullname: System.Int32
-      intValue: 2
+      intValue: 1
       boolValue: 0
       floatValue: 0
       stringValue: 
@@ -941,7 +941,7 @@ MonoBehaviour:
       typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       typeFullname: System.Int32
-      intValue: 2
+      intValue: 1
       boolValue: 0
       floatValue: 0
       stringValue: 
@@ -958,7 +958,7 @@ MonoBehaviour:
       typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       typeFullname: System.Int32
-      intValue: 2
+      intValue: 1
       boolValue: 0
       floatValue: 0
       stringValue: 

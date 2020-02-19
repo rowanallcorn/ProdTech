@@ -201,6 +201,85 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1229690557}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &155474303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 155474302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 22
+  indentLevel: 0
+  description: 
+  targetObject: {fileID: 1229690558}
+  targetComponentAssemblyName: VariableAffects, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: VariableAffects
+  targetMethod: updateVariableValues
+  targetMethodText: 'updateVariableValues (Int32, Int32, Int32): Void'
+  methodParameters:
+  - objValue:
+      typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Int32
+      intValue: -1
+      boolValue: 0
+      floatValue: 0
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  - objValue:
+      typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Int32
+      intValue: -1
+      boolValue: 0
+      floatValue: 0
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  - objValue:
+      typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Int32
+      intValue: -1
+      boolValue: 0
+      floatValue: 0
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
 --- !u!114 &155474304
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -260,7 +339,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 15
+  itemId: 18
   indentLevel: 0
   storyText: The smaller eggplant of course! Ensure that seller gets more money for
     their product!
@@ -288,7 +367,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 14
+  itemId: 19
   indentLevel: 0
   display: 1
   stage: {fileID: 0}
@@ -318,7 +397,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 13
+  itemId: 20
   indentLevel: 0
   storyText: Your Royal Highness! There has been a predicament between two merchants
     bickering to me on whose eggplant is worth more. Whose has the highest price?
@@ -372,6 +451,85 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &155474312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 155474302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 21
+  indentLevel: 0
+  description: 
+  targetObject: {fileID: 1229690558}
+  targetComponentAssemblyName: VariableAffects, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: VariableAffects
+  targetMethod: updateVariableValues
+  targetMethodText: 'updateVariableValues (Int32, Int32, Int32): Void'
+  methodParameters:
+  - objValue:
+      typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Int32
+      intValue: 1
+      boolValue: 0
+      floatValue: 0
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  - objValue:
+      typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Int32
+      intValue: 1
+      boolValue: 0
+      floatValue: 0
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  - objValue:
+      typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Int32
+      intValue: 1
+      boolValue: 0
+      floatValue: 0
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
 --- !u!114 &155474314 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2546777912222495507, guid: 46e658825d3703640a6eaac0c74b2d4c,
@@ -963,11 +1121,51 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2546777913247753175, guid: 46e658825d3703640a6eaac0c74b2d4c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -285.82
+      objectReference: {fileID: 0}
+    - target: {fileID: 2546777913247753175, guid: 46e658825d3703640a6eaac0c74b2d4c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -160.97
+      objectReference: {fileID: 0}
     - target: {fileID: 2546777912222495530, guid: 46e658825d3703640a6eaac0c74b2d4c,
         type: 3}
       propertyPath: selectedBlocks.Array.size
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2546777912222495530, guid: 46e658825d3703640a6eaac0c74b2d4c,
+        type: 3}
+      propertyPath: selectedCommands.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2546777912222495530, guid: 46e658825d3703640a6eaac0c74b2d4c,
+        type: 3}
+      propertyPath: scrollPos.x
+      value: 171.0946
+      objectReference: {fileID: 0}
+    - target: {fileID: 2546777912222495530, guid: 46e658825d3703640a6eaac0c74b2d4c,
+        type: 3}
+      propertyPath: scrollPos.y
+      value: 119.171036
+      objectReference: {fileID: 0}
+    - target: {fileID: 2546777912222495530, guid: 46e658825d3703640a6eaac0c74b2d4c,
+        type: 3}
+      propertyPath: zoom
+      value: 0.8800001
+      objectReference: {fileID: 0}
+    - target: {fileID: 2546777912222495530, guid: 46e658825d3703640a6eaac0c74b2d4c,
+        type: 3}
+      propertyPath: selectedBlocks.Array.data[0]
+      value: 
+      objectReference: {fileID: 1229690559}
+    - target: {fileID: 2546777912222495530, guid: 46e658825d3703640a6eaac0c74b2d4c,
+        type: 3}
+      propertyPath: selectedCommands.Array.data[0]
+      value: 
+      objectReference: {fileID: 155474305}
     - target: {fileID: 2546777912222495529, guid: 46e658825d3703640a6eaac0c74b2d4c,
         type: 3}
       propertyPath: commandList.Array.size
@@ -993,6 +1191,11 @@ PrefabInstance:
       propertyPath: commandList.Array.data[0]
       value: 
       objectReference: {fileID: 155474307}
+    - target: {fileID: 2546777912222495529, guid: 46e658825d3703640a6eaac0c74b2d4c,
+        type: 3}
+      propertyPath: nodeRect.width
+      value: 126.13635
+      objectReference: {fileID: 0}
     - target: {fileID: 2546777912222495528, guid: 46e658825d3703640a6eaac0c74b2d4c,
         type: 3}
       propertyPath: commandList.Array.size
@@ -1001,22 +1204,27 @@ PrefabInstance:
     - target: {fileID: 2546777912222495535, guid: 46e658825d3703640a6eaac0c74b2d4c,
         type: 3}
       propertyPath: commandList.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2546777912222495535, guid: 46e658825d3703640a6eaac0c74b2d4c,
         type: 3}
       propertyPath: commandList.Array.data[1]
       value: 
-      objectReference: {fileID: 155474311}
+      objectReference: {fileID: 155474306}
     - target: {fileID: 2546777912222495535, guid: 46e658825d3703640a6eaac0c74b2d4c,
         type: 3}
       propertyPath: commandList.Array.data[0]
       value: 
-      objectReference: {fileID: 155474306}
+      objectReference: {fileID: 155474312}
+    - target: {fileID: 2546777912222495535, guid: 46e658825d3703640a6eaac0c74b2d4c,
+        type: 3}
+      propertyPath: commandList.Array.data[2]
+      value: 
+      objectReference: {fileID: 155474311}
     - target: {fileID: 2546777912222495534, guid: 46e658825d3703640a6eaac0c74b2d4c,
         type: 3}
       propertyPath: commandList.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2546777912222495534, guid: 46e658825d3703640a6eaac0c74b2d4c,
         type: 3}
@@ -1032,12 +1240,17 @@ PrefabInstance:
         type: 3}
       propertyPath: commandList.Array.data[1]
       value: 
-      objectReference: {fileID: 155474310}
+      objectReference: {fileID: 155474305}
     - target: {fileID: 2546777912222495534, guid: 46e658825d3703640a6eaac0c74b2d4c,
         type: 3}
       propertyPath: commandList.Array.data[0]
       value: 
-      objectReference: {fileID: 155474305}
+      objectReference: {fileID: 155474303}
+    - target: {fileID: 2546777912222495534, guid: 46e658825d3703640a6eaac0c74b2d4c,
+        type: 3}
+      propertyPath: commandList.Array.data[2]
+      value: 
+      objectReference: {fileID: 155474310}
     - target: {fileID: 2546777912222495532, guid: 46e658825d3703640a6eaac0c74b2d4c,
         type: 3}
       propertyPath: commandList.Array.size
@@ -1063,11 +1276,67 @@ PrefabInstance:
       propertyPath: text
       value: Bigger, less purple eggplant
       objectReference: {fileID: 0}
+    - target: {fileID: 2478804328556228379, guid: 46e658825d3703640a6eaac0c74b2d4c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2478804329300377483, guid: 46e658825d3703640a6eaac0c74b2d4c,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -359
+      objectReference: {fileID: 0}
+    - target: {fileID: 2478804329300377483, guid: 46e658825d3703640a6eaac0c74b2d4c,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -77
+      objectReference: {fileID: 0}
+    - target: {fileID: 2478804327232276276, guid: 46e658825d3703640a6eaac0c74b2d4c,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -358
+      objectReference: {fileID: 0}
+    - target: {fileID: 2478804327232276276, guid: 46e658825d3703640a6eaac0c74b2d4c,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -142
+      objectReference: {fileID: 0}
+    - target: {fileID: 2478804328598787354, guid: 46e658825d3703640a6eaac0c74b2d4c,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -356
+      objectReference: {fileID: 0}
+    - target: {fileID: 2478804328598787354, guid: 46e658825d3703640a6eaac0c74b2d4c,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -107
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2546777912222495509, guid: 46e658825d3703640a6eaac0c74b2d4c, type: 3}
     - {fileID: 2546777912222495533, guid: 46e658825d3703640a6eaac0c74b2d4c, type: 3}
     - {fileID: 2546777912222495505, guid: 46e658825d3703640a6eaac0c74b2d4c, type: 3}
+    - {fileID: 4259277679668012079, guid: 46e658825d3703640a6eaac0c74b2d4c, type: 3}
+    - {fileID: 8462029072463413852, guid: 46e658825d3703640a6eaac0c74b2d4c, type: 3}
+    - {fileID: 2910322266315211757, guid: 46e658825d3703640a6eaac0c74b2d4c, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 46e658825d3703640a6eaac0c74b2d4c, type: 3}
+--- !u!1 &1229690558 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2478804327924840946, guid: 46e658825d3703640a6eaac0c74b2d4c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1229690557}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1229690559 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2546777912222495534, guid: 46e658825d3703640a6eaac0c74b2d4c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1229690557}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 155474302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1321856100
 GameObject:
   m_ObjectHideFlags: 0

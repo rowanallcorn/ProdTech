@@ -978,10 +978,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2546777913247753175, guid: 46e658825d3703640a6eaac0c74b2d4c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -285.82
+      objectReference: {fileID: 0}
+    - target: {fileID: 2546777913247753175, guid: 46e658825d3703640a6eaac0c74b2d4c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -160.97
+      objectReference: {fileID: 0}
     - target: {fileID: 2546777912222495530, guid: 46e658825d3703640a6eaac0c74b2d4c,
         type: 3}
       propertyPath: selectedBlocks.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2546777912222495529, guid: 46e658825d3703640a6eaac0c74b2d4c,
         type: 3}
@@ -1026,18 +1036,18 @@ PrefabInstance:
     - target: {fileID: 2546777912222495535, guid: 46e658825d3703640a6eaac0c74b2d4c,
         type: 3}
       propertyPath: commandList.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2546777912222495535, guid: 46e658825d3703640a6eaac0c74b2d4c,
         type: 3}
       propertyPath: commandList.Array.data[1]
       value: 
-      objectReference: {fileID: 2120353895}
+      objectReference: {fileID: 2120353896}
     - target: {fileID: 2546777912222495535, guid: 46e658825d3703640a6eaac0c74b2d4c,
         type: 3}
       propertyPath: commandList.Array.data[0]
       value: 
-      objectReference: {fileID: 2120353896}
+      objectReference: {fileID: 2120353899}
     - target: {fileID: 2546777912222495535, guid: 46e658825d3703640a6eaac0c74b2d4c,
         type: 3}
       propertyPath: nodeRect.x
@@ -1048,10 +1058,15 @@ PrefabInstance:
       propertyPath: nodeRect.y
       value: 26.814262
       objectReference: {fileID: 0}
+    - target: {fileID: 2546777912222495535, guid: 46e658825d3703640a6eaac0c74b2d4c,
+        type: 3}
+      propertyPath: commandList.Array.data[2]
+      value: 
+      objectReference: {fileID: 2120353895}
     - target: {fileID: 2546777912222495534, guid: 46e658825d3703640a6eaac0c74b2d4c,
         type: 3}
       propertyPath: commandList.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2546777912222495534, guid: 46e658825d3703640a6eaac0c74b2d4c,
         type: 3}
@@ -1067,12 +1082,17 @@ PrefabInstance:
         type: 3}
       propertyPath: commandList.Array.data[1]
       value: 
-      objectReference: {fileID: 2120353894}
+      objectReference: {fileID: 2120353893}
     - target: {fileID: 2546777912222495534, guid: 46e658825d3703640a6eaac0c74b2d4c,
         type: 3}
       propertyPath: commandList.Array.data[0]
       value: 
-      objectReference: {fileID: 2120353893}
+      objectReference: {fileID: 2120353898}
+    - target: {fileID: 2546777912222495534, guid: 46e658825d3703640a6eaac0c74b2d4c,
+        type: 3}
+      propertyPath: commandList.Array.data[2]
+      value: 
+      objectReference: {fileID: 2120353894}
     - target: {fileID: 2546777912222495532, guid: 46e658825d3703640a6eaac0c74b2d4c,
         type: 3}
       propertyPath: commandList.Array.size
@@ -1098,10 +1118,48 @@ PrefabInstance:
       propertyPath: text
       value: Deny JackRabbit the Jester his wish
       objectReference: {fileID: 0}
+    - target: {fileID: 2478804328556228379, guid: 46e658825d3703640a6eaac0c74b2d4c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2478804329300377483, guid: 46e658825d3703640a6eaac0c74b2d4c,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -361
+      objectReference: {fileID: 0}
+    - target: {fileID: 2478804329300377483, guid: 46e658825d3703640a6eaac0c74b2d4c,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -68
+      objectReference: {fileID: 0}
+    - target: {fileID: 2478804327232276276, guid: 46e658825d3703640a6eaac0c74b2d4c,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -360
+      objectReference: {fileID: 0}
+    - target: {fileID: 2478804327232276276, guid: 46e658825d3703640a6eaac0c74b2d4c,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -133
+      objectReference: {fileID: 0}
+    - target: {fileID: 2478804328598787354, guid: 46e658825d3703640a6eaac0c74b2d4c,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -358
+      objectReference: {fileID: 0}
+    - target: {fileID: 2478804328598787354, guid: 46e658825d3703640a6eaac0c74b2d4c,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -98
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2546777912222495509, guid: 46e658825d3703640a6eaac0c74b2d4c, type: 3}
     - {fileID: 2546777912222495533, guid: 46e658825d3703640a6eaac0c74b2d4c, type: 3}
     - {fileID: 2546777912222495505, guid: 46e658825d3703640a6eaac0c74b2d4c, type: 3}
+    - {fileID: 4259277679668012079, guid: 46e658825d3703640a6eaac0c74b2d4c, type: 3}
+    - {fileID: 8462029072463413852, guid: 46e658825d3703640a6eaac0c74b2d4c, type: 3}
+    - {fileID: 2910322266315211757, guid: 46e658825d3703640a6eaac0c74b2d4c, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 46e658825d3703640a6eaac0c74b2d4c, type: 3}
 --- !u!1 &2120353885 stripped
 GameObject:
@@ -1157,7 +1215,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 14
+  itemId: 18
   indentLevel: 0
   display: 1
   stage: {fileID: 0}
@@ -1187,7 +1245,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 13
+  itemId: 19
   indentLevel: 0
   storyText: Hello Sire, It is I, the profound Jackrabbit the Jester. I wish to request
     your blessing on performing at the tavern this eveing for all to enjoy?
@@ -1217,6 +1275,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parentBlock: {fileID: 2120353887}
   waitForFrames: 1
+--- !u!1 &2120353892 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2478804327924840946, guid: 46e658825d3703640a6eaac0c74b2d4c,
+    type: 3}
+  m_PrefabInstance: {fileID: 2120353884}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &2120353893
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1281,7 +1345,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 15
+  itemId: 20
   indentLevel: 0
   storyText: Of course my hairy fellow friend! I am more than happy to gift you your
     wish. What a stupendous idea!
@@ -1316,3 +1380,161 @@ MonoBehaviour:
     stringVal: Challenge5
   loadingImage: {fileID: 0}
   sceneNameOLD: 
+--- !u!114 &2120353898
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2120353885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 22
+  indentLevel: 0
+  description: 
+  targetObject: {fileID: 2120353892}
+  targetComponentAssemblyName: VariableAffects, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: VariableAffects
+  targetMethod: updateVariableValues
+  targetMethodText: 'updateVariableValues (Int32, Int32, Int32): Void'
+  methodParameters:
+  - objValue:
+      typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Int32
+      intValue: -2
+      boolValue: 0
+      floatValue: 0
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  - objValue:
+      typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Int32
+      intValue: -2
+      boolValue: 0
+      floatValue: 0
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  - objValue:
+      typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Int32
+      intValue: -2
+      boolValue: 0
+      floatValue: 0
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
+--- !u!114 &2120353899
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2120353885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 21
+  indentLevel: 0
+  description: 
+  targetObject: {fileID: 2120353892}
+  targetComponentAssemblyName: VariableAffects, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: VariableAffects
+  targetMethod: updateVariableValues
+  targetMethodText: 'updateVariableValues (Int32, Int32, Int32): Void'
+  methodParameters:
+  - objValue:
+      typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Int32
+      intValue: 2
+      boolValue: 0
+      floatValue: 0
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  - objValue:
+      typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Int32
+      intValue: 2
+      boolValue: 0
+      floatValue: 0
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  - objValue:
+      typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Int32
+      intValue: 2
+      boolValue: 0
+      floatValue: 0
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
