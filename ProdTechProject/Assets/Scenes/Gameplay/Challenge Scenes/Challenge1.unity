@@ -809,7 +809,7 @@ MonoBehaviour:
   portrait: {fileID: 21300000, guid: 1e40ab6bf4303384b9e8851f00dea745, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
-  toPosition: {fileID: 1781759486}
+  toPosition: {fileID: 1921195381}
   facing: 1
   useDefaultSettings: 1
   fadeDuration: 0.5
@@ -1427,8 +1427,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -572, y: -1198.3}
-  m_SizeDelta: {x: 1000, y: 1198.4}
+  m_AnchoredPosition: {x: -569.5196, y: -1198.3}
+  m_SizeDelta: {x: 995.04, y: 1198.4}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1921195382
 MonoBehaviour:

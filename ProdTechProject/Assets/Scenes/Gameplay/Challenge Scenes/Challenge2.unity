@@ -154,8 +154,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -1000}
-  m_SizeDelta: {x: 1000, y: 1000}
+  m_AnchoredPosition: {x: 0, y: -1201.8}
+  m_SizeDelta: {x: 1000, y: 1201.8}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!222 &2871667
 CanvasRenderer:
@@ -207,6 +207,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &65470800 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 128162703182631831, guid: 46e658825d3703640a6eaac0c74b2d4c,
+    type: 3}
+  m_PrefabInstance: {fileID: 804203074}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &344581947
 GameObject:
   m_ObjectHideFlags: 0
@@ -241,8 +253,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -1300, y: -1000}
-  m_SizeDelta: {x: 1000, y: 1000}
+  m_AnchoredPosition: {x: -1300, y: -1201.8}
+  m_SizeDelta: {x: 1000, y: 1201.8}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &344581949
 MonoBehaviour:
@@ -282,18 +294,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 344581947}
   m_CullTransparentMesh: 0
---- !u!114 &537436473 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2546777913512364359, guid: 46e658825d3703640a6eaac0c74b2d4c,
-    type: 3}
-  m_PrefabInstance: {fileID: 804203074}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &727429326
 GameObject:
   m_ObjectHideFlags: 0
@@ -392,6 +392,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7650568133391801876, guid: 46e658825d3703640a6eaac0c74b2d4c,
+        type: 3}
+      propertyPath: m_Name
+      value: Jester
+      objectReference: {fileID: 0}
     - target: {fileID: 2546777913622837198, guid: 46e658825d3703640a6eaac0c74b2d4c,
         type: 3}
       propertyPath: m_Name
@@ -481,17 +486,17 @@ PrefabInstance:
         type: 3}
       propertyPath: commandList.Array.data[1]
       value: 
-      objectReference: {fileID: 1208746138}
+      objectReference: {fileID: 1208746139}
     - target: {fileID: 2546777912222495529, guid: 46e658825d3703640a6eaac0c74b2d4c,
         type: 3}
       propertyPath: commandList.Array.data[0]
       value: 
-      objectReference: {fileID: 1208746139}
+      objectReference: {fileID: 1208746151}
     - target: {fileID: 2546777912222495529, guid: 46e658825d3703640a6eaac0c74b2d4c,
         type: 3}
       propertyPath: commandList.Array.data[2]
       value: 
-      objectReference: {fileID: 1208746151}
+      objectReference: {fileID: 1208746138}
     - target: {fileID: 2546777912222495529, guid: 46e658825d3703640a6eaac0c74b2d4c,
         type: 3}
       propertyPath: commandList.Array.data[3]
@@ -510,6 +515,11 @@ PrefabInstance:
     - target: {fileID: 2546777912222495529, guid: 46e658825d3703640a6eaac0c74b2d4c,
         type: 3}
       propertyPath: commandList.Array.data[5]
+      value: 
+      objectReference: {fileID: 1208746149}
+    - target: {fileID: 2546777912222495529, guid: 46e658825d3703640a6eaac0c74b2d4c,
+        type: 3}
+      propertyPath: commandList.Array.data[6]
       value: 
       objectReference: {fileID: 1208746149}
     - target: {fileID: 2546777912222495528, guid: 46e658825d3703640a6eaac0c74b2d4c,
@@ -642,6 +652,66 @@ PrefabInstance:
       propertyPath: commandList.Array.data[2]
       value: 
       objectReference: {fileID: 1208746143}
+    - target: {fileID: 2546777913512364359, guid: 46e658825d3703640a6eaac0c74b2d4c,
+        type: 3}
+      propertyPath: portraits.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: 870c93181ef03e34db17f9be635cbcec,
+        type: 3}
+    - target: {fileID: 2546777913512364359, guid: 46e658825d3703640a6eaac0c74b2d4c,
+        type: 3}
+      propertyPath: portraits.Array.data[3]
+      value: 
+      objectReference: {fileID: 21300000, guid: 870c93181ef03e34db17f9be635cbcec,
+        type: 3}
+    - target: {fileID: 2546777913512364359, guid: 46e658825d3703640a6eaac0c74b2d4c,
+        type: 3}
+      propertyPath: portraits.Array.data[4]
+      value: 
+      objectReference: {fileID: 21300000, guid: 870c93181ef03e34db17f9be635cbcec,
+        type: 3}
+    - target: {fileID: 2546777913512364359, guid: 46e658825d3703640a6eaac0c74b2d4c,
+        type: 3}
+      propertyPath: portraits.Array.data[5]
+      value: 
+      objectReference: {fileID: 21300000, guid: 870c93181ef03e34db17f9be635cbcec,
+        type: 3}
+    - target: {fileID: 2546777913512364359, guid: 46e658825d3703640a6eaac0c74b2d4c,
+        type: 3}
+      propertyPath: portraits.Array.data[6]
+      value: 
+      objectReference: {fileID: 21300000, guid: 870c93181ef03e34db17f9be635cbcec,
+        type: 3}
+    - target: {fileID: 2546777913512364359, guid: 46e658825d3703640a6eaac0c74b2d4c,
+        type: 3}
+      propertyPath: portraits.Array.data[7]
+      value: 
+      objectReference: {fileID: 21300000, guid: 870c93181ef03e34db17f9be635cbcec,
+        type: 3}
+    - target: {fileID: 2546777913512364359, guid: 46e658825d3703640a6eaac0c74b2d4c,
+        type: 3}
+      propertyPath: portraits.Array.data[8]
+      value: 
+      objectReference: {fileID: 21300000, guid: 870c93181ef03e34db17f9be635cbcec,
+        type: 3}
+    - target: {fileID: 2546777913512364359, guid: 46e658825d3703640a6eaac0c74b2d4c,
+        type: 3}
+      propertyPath: portraits.Array.data[9]
+      value: 
+      objectReference: {fileID: 21300000, guid: 870c93181ef03e34db17f9be635cbcec,
+        type: 3}
+    - target: {fileID: 2546777913512364359, guid: 46e658825d3703640a6eaac0c74b2d4c,
+        type: 3}
+      propertyPath: portraits.Array.data[10]
+      value: 
+      objectReference: {fileID: 21300000, guid: 870c93181ef03e34db17f9be635cbcec,
+        type: 3}
+    - target: {fileID: 2546777913512364359, guid: 46e658825d3703640a6eaac0c74b2d4c,
+        type: 3}
+      propertyPath: portraits.Array.data[11]
+      value: 
+      objectReference: {fileID: 21300000, guid: 870c93181ef03e34db17f9be635cbcec,
+        type: 3}
     m_RemovedComponents:
     - {fileID: 4259277679668012079, guid: 46e658825d3703640a6eaac0c74b2d4c, type: 3}
     - {fileID: 8462029072463413852, guid: 46e658825d3703640a6eaac0c74b2d4c, type: 3}
@@ -1064,10 +1134,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 18
   indentLevel: 0
-  storyText: The Jesters performance was awful your highness! he used the same performance
+  storyText: The Jesters performance was awful your highness! He used the same performance
     last week!
   description: 
-  character: {fileID: 537436473}
+  character: {fileID: 65470800}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1128,7 +1198,7 @@ MonoBehaviour:
   portrait: {fileID: 21300000, guid: 1e40ab6bf4303384b9e8851f00dea745, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
-  toPosition: {fileID: 1611165511}
+  toPosition: {fileID: 1704360667}
   facing: 1
   useDefaultSettings: 1
   fadeDuration: 0.5
@@ -1510,7 +1580,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 --- !u!114 &1208746151
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1524,12 +1594,12 @@ MonoBehaviour:
   indentLevel: 0
   display: 1
   stage: {fileID: 0}
-  character: {fileID: 537436473}
+  character: {fileID: 65470800}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 870c93181ef03e34db17f9be635cbcec, type: 3}
+  portrait: {fileID: 21300000, guid: 162f7067e78265e4ebb03f1aeab934ae, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
-  toPosition: {fileID: 1611165511}
+  toPosition: {fileID: 2871666}
   facing: 0
   useDefaultSettings: 1
   fadeDuration: 0.5
@@ -1640,8 +1710,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 460.43, y: -1000}
-  m_SizeDelta: {x: 1000, y: 1000}
+  m_AnchoredPosition: {x: 553.3, y: -1201.8}
+  m_SizeDelta: {x: 1027.5, y: 1201.8}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1611165512
 MonoBehaviour:
@@ -1727,8 +1797,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 1300, y: -1000}
-  m_SizeDelta: {x: 1000, y: 1000}
+  m_AnchoredPosition: {x: 1300, y: -1201.8}
+  m_SizeDelta: {x: 1000, y: 1201.8}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1639220900
 MonoBehaviour:
@@ -1802,8 +1872,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -460.43, y: -1000}
-  m_SizeDelta: {x: 1000, y: 1000}
+  m_AnchoredPosition: {x: -554.7, y: -1201.8}
+  m_SizeDelta: {x: 1024.6, y: 1201.8}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1704360668
 MonoBehaviour:

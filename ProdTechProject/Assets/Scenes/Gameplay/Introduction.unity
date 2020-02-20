@@ -264,7 +264,6 @@ GameObject:
   - component: {fileID: 120669699}
   - component: {fileID: 120669696}
   - component: {fileID: 120669694}
-  - component: {fileID: 120669692}
   - component: {fileID: 120669675}
   - component: {fileID: 120669700}
   - component: {fileID: 120669684}
@@ -350,7 +349,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 1436647766}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 1e40ab6bf4303384b9e8851f00dea745, type: 3}
+  portrait: {fileID: 21300000, guid: a6d201c995d4bc94a950352a7e3be7c7, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 1401083890}
@@ -684,7 +683,6 @@ MonoBehaviour:
   - {fileID: 120669683}
   - {fileID: 120669696}
   - {fileID: 120669680}
-  - {fileID: 120669692}
   - {fileID: 120669678}
   - {fileID: 120669677}
   - {fileID: 120669684}
@@ -757,10 +755,9 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 120669687}
+  selectedBlocks: []
   selectedCommands:
-  - {fileID: 120669684}
+  - {fileID: 120669696}
   variables: []
   description: 
   stepPause: 0
@@ -786,36 +783,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &120669692
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 120669672}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 23
-  indentLevel: 0
-  display: 1
-  stage: {fileID: 0}
-  character: {fileID: 1436647766}
-  replacedCharacter: {fileID: 0}
-  portrait: {fileID: 0}
-  offset: 0
-  fromPosition: {fileID: 0}
-  toPosition: {fileID: 1401083890}
-  facing: 2
-  useDefaultSettings: 1
-  fadeDuration: 0.5
-  moveDuration: 1
-  shiftOffset: {x: 0, y: 0}
-  move: 0
-  shiftIntoPlace: 0
-  waitUntilFinished: 0
 --- !u!114 &120669694
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1392,7 +1359,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1401083889}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -1401,7 +1368,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -490, y: -1243}
+  m_AnchoredPosition: {x: -600, y: -1214}
   m_SizeDelta: {x: 1000, y: 1000}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1401083891
@@ -1489,6 +1456,7 @@ MonoBehaviour:
   nameColor: {r: 1, g: 1, b: 1, a: 1}
   soundEffect: {fileID: 0}
   portraits:
+  - {fileID: 21300000, guid: a6d201c995d4bc94a950352a7e3be7c7, type: 3}
   - {fileID: 21300000, guid: 1e40ab6bf4303384b9e8851f00dea745, type: 3}
   portraitsFace: 2
   setSayDialog: {fileID: 0}
@@ -1504,7 +1472,7 @@ GameObject:
   - component: {fileID: 1720718955}
   - component: {fileID: 1720718954}
   m_Layer: 0
-  m_Name: Spr_Outdoors_1
+  m_Name: Spr_Outdoors
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1548,7 +1516,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 56e0c476702c7da41bcae162a62a4fce, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 941ddb6d5dbedca4a9bc06ca4e341916, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1567,7 +1535,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1720718953}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.061869144, y: 0.9662292, z: 0}
+  m_LocalPosition: {x: -0.02, y: 1.22, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1673,7 +1641,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1966281673}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -1682,7 +1650,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 511, y: -1243}
+  m_AnchoredPosition: {x: 652, y: -1319}
   m_SizeDelta: {x: 1000, y: 1000}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1966281675

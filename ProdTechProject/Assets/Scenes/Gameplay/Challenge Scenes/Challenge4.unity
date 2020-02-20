@@ -236,9 +236,9 @@ Canvas:
   m_GameObject: {fileID: 323929822}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
-  m_PlaneDistance: 100
+  m_RenderMode: 1
+  m_Camera: {fileID: 868790261}
+  m_PlaneDistance: 10
   m_PixelPerfect: 1
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
@@ -248,6 +248,18 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &356824631 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8025876321480641915, guid: 46e658825d3703640a6eaac0c74b2d4c,
+    type: 3}
+  m_PrefabInstance: {fileID: 2120353884}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &373611655
 GameObject:
   m_ObjectHideFlags: 0
@@ -282,8 +294,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -460.43, y: -1000}
-  m_SizeDelta: {x: 1000, y: 1000}
+  m_AnchoredPosition: {x: -553.3, y: -1189.1}
+  m_SizeDelta: {x: 1027.5, y: 1189.1}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &373611657
 MonoBehaviour:
@@ -507,8 +519,8 @@ Camera:
   m_GameObject: {fileID: 868790259}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.49411768, g: 0.6627451, b: 0.54901963, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -524,8 +536,8 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 55.4
-  orthographic: 0
-  orthographic size: 5
+  orthographic: 1
+  orthographic size: 5.3374443
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -549,24 +561,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 868790259}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &979784067 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2546777913849320166, guid: 46e658825d3703640a6eaac0c74b2d4c,
-    type: 3}
-  m_PrefabInstance: {fileID: 2120353884}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &994321613
 GameObject:
   m_ObjectHideFlags: 0
@@ -601,8 +601,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 1300, y: -1000}
-  m_SizeDelta: {x: 1000, y: 1000}
+  m_AnchoredPosition: {x: 1300, y: -1189.1}
+  m_SizeDelta: {x: 1000, y: 1189.1}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &994321615
 MonoBehaviour:
@@ -676,8 +676,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 460.43, y: -1000}
-  m_SizeDelta: {x: 1000, y: 1000}
+  m_AnchoredPosition: {x: 554.6, y: -1189.1}
+  m_SizeDelta: {x: 1024.9, y: 1189.1}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1116813307
 MonoBehaviour:
@@ -751,8 +751,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -1000}
-  m_SizeDelta: {x: 1000, y: 1000}
+  m_AnchoredPosition: {x: 0, y: -1189.1}
+  m_SizeDelta: {x: 1000, y: 1189.1}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!222 &1305169877
 CanvasRenderer:
@@ -826,8 +826,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -1300, y: -1000}
-  m_SizeDelta: {x: 1000, y: 1000}
+  m_AnchoredPosition: {x: -1300, y: -1189.1}
+  m_SizeDelta: {x: 1000, y: 1189.1}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1521399490
 MonoBehaviour:
@@ -926,17 +926,17 @@ PrefabInstance:
     - target: {fileID: 2546777913622837199, guid: 46e658825d3703640a6eaac0c74b2d4c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 285.51846
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2546777913622837199, guid: 46e658825d3703640a6eaac0c74b2d4c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 162.0483
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2546777913622837199, guid: 46e658825d3703640a6eaac0c74b2d4c,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 58.43819
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2546777913622837199, guid: 46e658825d3703640a6eaac0c74b2d4c,
         type: 3}
@@ -977,16 +977,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2546777913247753175, guid: 46e658825d3703640a6eaac0c74b2d4c,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -285.82
-      objectReference: {fileID: 0}
-    - target: {fileID: 2546777913247753175, guid: 46e658825d3703640a6eaac0c74b2d4c,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -160.97
       objectReference: {fileID: 0}
     - target: {fileID: 2546777912222495530, guid: 46e658825d3703640a6eaac0c74b2d4c,
         type: 3}
@@ -1106,7 +1096,7 @@ PrefabInstance:
     - target: {fileID: 2546777912222495506, guid: 46e658825d3703640a6eaac0c74b2d4c,
         type: 3}
       propertyPath: text
-      value: Grant JackRabbit the Jester his wish
+      value: Grant Jack the Jester his wish
       objectReference: {fileID: 0}
     - target: {fileID: 2546777912222495505, guid: 46e658825d3703640a6eaac0c74b2d4c,
         type: 3}
@@ -1116,43 +1106,18 @@ PrefabInstance:
     - target: {fileID: 2546777912222495504, guid: 46e658825d3703640a6eaac0c74b2d4c,
         type: 3}
       propertyPath: text
-      value: Deny JackRabbit the Jester his wish
+      value: Deny Jack the Jester his wish
       objectReference: {fileID: 0}
     - target: {fileID: 2478804328556228379, guid: 46e658825d3703640a6eaac0c74b2d4c,
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2478804329300377483, guid: 46e658825d3703640a6eaac0c74b2d4c,
+    - target: {fileID: 2478804328556228376, guid: 46e658825d3703640a6eaac0c74b2d4c,
         type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -361
-      objectReference: {fileID: 0}
-    - target: {fileID: 2478804329300377483, guid: 46e658825d3703640a6eaac0c74b2d4c,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -68
-      objectReference: {fileID: 0}
-    - target: {fileID: 2478804327232276276, guid: 46e658825d3703640a6eaac0c74b2d4c,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -360
-      objectReference: {fileID: 0}
-    - target: {fileID: 2478804327232276276, guid: 46e658825d3703640a6eaac0c74b2d4c,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -133
-      objectReference: {fileID: 0}
-    - target: {fileID: 2478804328598787354, guid: 46e658825d3703640a6eaac0c74b2d4c,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -358
-      objectReference: {fileID: 0}
-    - target: {fileID: 2478804328598787354, guid: 46e658825d3703640a6eaac0c74b2d4c,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -98
-      objectReference: {fileID: 0}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 868790261}
     m_RemovedComponents:
     - {fileID: 2546777912222495509, guid: 46e658825d3703640a6eaac0c74b2d4c, type: 3}
     - {fileID: 2546777912222495533, guid: 46e658825d3703640a6eaac0c74b2d4c, type: 3}
@@ -1219,9 +1184,9 @@ MonoBehaviour:
   indentLevel: 0
   display: 1
   stage: {fileID: 0}
-  character: {fileID: 979784067}
+  character: {fileID: 356824631}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: d9ea1f89078dbf447b19c13a65eb1b55, type: 3}
+  portrait: {fileID: 21300000, guid: 47d8d4a7de8aa5a4aa9a44ed597b46b3, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 1305169876}
@@ -1247,10 +1212,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 19
   indentLevel: 0
-  storyText: Hello Sire, It is I, the profound Jackrabbit the Jester. I wish to request
-    your blessing on performing at the tavern this eveing for all to enjoy?
+  storyText: Hello Sire, It is I, the profound Jack the Jester. I wish to request
+    your blessing on performing at the tavern this evening for all to enjoy?
   description: 
-  character: {fileID: 979784067}
+  character: {fileID: 356824631}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1295,7 +1260,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 16
   indentLevel: 0
-  storyText: Enough of your tom foolery, no one wants to to watch a low end citizen
+  storyText: Enough of your tomfoolery, no one wants to to watch a low end citizen
     like you at the sacred tavern! Be gone you foul creature!
   description: 
   character: {fileID: 60130570}
