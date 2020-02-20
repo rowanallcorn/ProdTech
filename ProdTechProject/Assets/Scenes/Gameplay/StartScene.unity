@@ -360,8 +360,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -59}
-  m_SizeDelta: {x: 385.4, y: 50}
+  m_AnchoredPosition: {x: 0, y: -102}
+  m_SizeDelta: {x: 416.3, y: 91.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &676843682
 MonoBehaviour:
@@ -386,8 +386,9 @@ MonoBehaviour:
   m_text: a.k.a. The most realistic simulation of monarchy, how monarchs are chosen
     and the governmental desicion making process
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: fcbefbdc2b6597e46b0d9e09ee6b8a62, type: 2}
+  m_sharedMaterial: {fileID: -693290552434063833, guid: fcbefbdc2b6597e46b0d9e09ee6b8a62,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -412,8 +413,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 12
-  m_fontSizeBase: 12
+  m_fontSize: 24
+  m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -458,7 +459,7 @@ MonoBehaviour:
     spaceCount: 16
     wordCount: 19
     linkCount: 0
-    lineCount: 2
+    lineCount: 3
     pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
@@ -791,7 +792,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 78.3}
+  m_AnchoredPosition: {x: 0, y: 141}
   m_SizeDelta: {x: 655.8, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1477874253
@@ -816,8 +817,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: The Totally Super Real King
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: fcbefbdc2b6597e46b0d9e09ee6b8a62, type: 2}
+  m_sharedMaterial: {fileID: -693290552434063833, guid: fcbefbdc2b6597e46b0d9e09ee6b8a62,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -842,8 +844,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 48
-  m_fontSizeBase: 48
+  m_fontSize: 60
+  m_fontSizeBase: 60
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1309,7 +1311,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1804177452
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1326,7 +1328,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.4, y: 60.1}
+  m_AnchoredPosition: {x: -0.4, y: 64}
   m_SizeDelta: {x: 675.5, y: 106.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1804177453
