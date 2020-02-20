@@ -11,9 +11,13 @@ public class StartGame : MonoBehaviour
 
     private void Start()
     {
+        //if there is no scene prefab set yet, set it to introduction
         if (PlayerPrefs.GetString("SceneCurrent")==null)
         { PlayerPrefs.SetString("SceneCurrent", "Introduction"); }
     }
+
+    //start the game- if the game is still in the introduction scene, set the values of the game stats 
+    // to starting values. Otherwise, load the scene the player was last on. 
     public void StartAtLastScene()
     {   if (PlayerPrefs.GetString("SceneCurrent") == "Introduction")
         {

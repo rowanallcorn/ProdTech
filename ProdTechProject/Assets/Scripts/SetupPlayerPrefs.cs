@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SetupPlayerPrefs : MonoBehaviour
 {
-
+    //set variables
     [Tooltip("The start money value of the game")]
     public int moneyStart;
     [Tooltip("The start prestige value of the game")]
@@ -14,15 +14,11 @@ public class SetupPlayerPrefs : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //set saved values to the established variables above
         PlayerPrefs.SetInt("money", moneyStart);
         PlayerPrefs.SetInt("prestige", prestigeStart);
         PlayerPrefs.SetInt("beetroot", beetrootStart);
 
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

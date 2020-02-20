@@ -4,11 +4,15 @@ using UnityEngine;
 
 public class ResetPrefs : MonoBehaviour
 {
+
+    //declare staring variables
     public int MoneySt;
     public int prestSt;
     public int beetSt; 
 
     public void resetAllPrefs()
+
+        //set all variable values to the public values listed above, and set the scene back to introduciton
     {
         PlayerPrefs.SetInt("money", MoneySt);
         PlayerPrefs.SetInt("prestige", prestSt);
