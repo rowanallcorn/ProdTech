@@ -54,8 +54,10 @@ public class VariableAffects : MonoBehaviour
         prestige.text = ("Prestige: " + prestigeValue + "/10");
         beetroot.text = ("Beetroot: " + beetrootValue + "/10");
 
-        if (moneyValue == 0 || prestigeValue == 0 || beetrootValue == 0)
-        { SceneManager.LoadScene("LoseScene"); }
+        if (moneyValue <= 0 || prestigeValue <= 0 || beetrootValue <= 0)
+        {
+            PlayerPrefs.SetString("SceneCurrent", "LoseScene");
+            SceneManager.LoadScene("LoseScene"); }
 
         PlayerPrefs.SetInt("money", moneyValue);
         PlayerPrefs.SetInt("prestige", prestigeValue);
