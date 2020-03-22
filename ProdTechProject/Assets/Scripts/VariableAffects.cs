@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement; 
+using UnityEngine.SceneManagement;
+using UnityEngine.Analytics; 
 
 public class VariableAffects : MonoBehaviour
 {
@@ -58,6 +59,14 @@ public class VariableAffects : MonoBehaviour
         {
             PlayerPrefs.SetString("SceneCurrent", "LoseScene");
             SceneManager.LoadScene("LoseScene"); }
+
+        Analytics.CustomEvent("Money Change", new Dictionary<string, object>
+        {  { "Money Change", moneyChange},
+            { "Prestige Change", prestigeChange},
+            { "Beetroot Change", beetrootChange},
+            { "Scene Name", SceneManager.GetActiveScene().name}
+        }); 
+                
 
         PlayerPrefs.SetInt("money", moneyValue);
         PlayerPrefs.SetInt("prestige", prestigeValue);
