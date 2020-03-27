@@ -365,17 +365,17 @@ PrefabInstance:
     - target: {fileID: 2546777912222495506, guid: 46e658825d3703640a6eaac0c74b2d4c,
         type: 3}
       propertyPath: text
-      value: Kill Meowington III
+      value: Exile Meowington IV
       objectReference: {fileID: 0}
     - target: {fileID: 2546777912222495505, guid: 46e658825d3703640a6eaac0c74b2d4c,
         type: 3}
       propertyPath: text
-      value: Accept but dont try it
+      value: Release Meowington IV
       objectReference: {fileID: 0}
     - target: {fileID: 2546777912222495504, guid: 46e658825d3703640a6eaac0c74b2d4c,
         type: 3}
       propertyPath: text
-      value: Accept and try it
+      value: Kill Meowington IV
       objectReference: {fileID: 0}
     - target: {fileID: 2478804328556228379, guid: 46e658825d3703640a6eaac0c74b2d4c,
         type: 3}
@@ -540,7 +540,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 17
   indentLevel: 0
-  storyText: Why thank you, I will take this treat but I'll eat it another time.
+  storyText: It's just a tongue you idiot! Who cares? Release him at once.
   description: 
   character: {fileID: 280986862}
   portrait: {fileID: 0}
@@ -567,7 +567,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 16
   indentLevel: 0
-  storyText: Why thank you for your kind gesture, of course I'll try some!
+  storyText: Off with Meowington IV's head! That tongue is past the limit!
   description: 
   character: {fileID: 280986862}
   portrait: {fileID: 0}
@@ -594,7 +594,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 18
   indentLevel: 0
-  storyText: Off with his head!
+  storyText: Exile Meowington IV! What a disgrace you have brought to this kingdom...
+    Look at the size of that thing!
   description: 
   character: {fileID: 280986862}
   portrait: {fileID: 0}
@@ -623,9 +624,9 @@ MonoBehaviour:
   indentLevel: 0
   display: 1
   stage: {fileID: 0}
-  character: {fileID: 280986879}
+  character: {fileID: 280986881}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 02d8d436795118e4e8251efa2e9af73e, type: 3}
+  portrait: {fileID: 21300000, guid: 1e40ab6bf4303384b9e8851f00dea745, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 554009908}
@@ -651,11 +652,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 20
   indentLevel: 0
-  storyText: Ah my King! What a delight it is to see you this fine Wednesday! in honour
-    of being in your prescence, I have brought you this homemade cricket souffle!
-    Care to have a bite?
+  storyText: Your Royalty! I found a tongue in a jar thats the size of a chalace in
+    Meowington IV's home! What would you like me to do?
   description: 
-  character: {fileID: 280986879}
+  character: {fileID: 280986881}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -778,7 +778,7 @@ MonoBehaviour:
       typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       typeFullname: System.Int32
-      intValue: 1
+      intValue: -2
       boolValue: 0
       floatValue: 0
       stringValue: 
@@ -795,7 +795,7 @@ MonoBehaviour:
       typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       typeFullname: System.Int32
-      intValue: 1
+      intValue: -2
       boolValue: 0
       floatValue: 0
       stringValue: 
@@ -812,7 +812,7 @@ MonoBehaviour:
       typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       typeFullname: System.Int32
-      intValue: 1
+      intValue: -2
       boolValue: 0
       floatValue: 0
       stringValue: 
@@ -857,7 +857,7 @@ MonoBehaviour:
       typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       typeFullname: System.Int32
-      intValue: -3
+      intValue: -1
       boolValue: 0
       floatValue: 0
       stringValue: 
@@ -874,7 +874,7 @@ MonoBehaviour:
       typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       typeFullname: System.Int32
-      intValue: -3
+      intValue: -1
       boolValue: 0
       floatValue: 0
       stringValue: 
@@ -891,7 +891,7 @@ MonoBehaviour:
       typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       typeFullname: System.Int32
-      intValue: -3
+      intValue: -1
       boolValue: 0
       floatValue: 0
       stringValue: 
@@ -909,21 +909,9 @@ MonoBehaviour:
   returnValueType: System.Void
   showInherited: 0
   callMode: 0
---- !u!114 &280986879 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2126702790819240016, guid: 46e658825d3703640a6eaac0c74b2d4c,
-    type: 3}
-  m_PrefabInstance: {fileID: 280986860}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &280986880
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -937,9 +925,21 @@ MonoBehaviour:
   indentLevel: 0
   _sceneName:
     stringRef: {fileID: 0}
-    stringVal: EndScene
+    stringVal: Challenge7
   loadingImage: {fileID: 0}
   sceneNameOLD: 
+--- !u!114 &280986881 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2546777912415509735, guid: 46e658825d3703640a6eaac0c74b2d4c,
+    type: 3}
+  m_PrefabInstance: {fileID: 280986860}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &554009907
 GameObject:
   m_ObjectHideFlags: 0

@@ -12,20 +12,50 @@ EditorBuildSettings:
     path: Assets/Scenes/Gameplay/Introduction.unity
     guid: 192bb024715dd48469ce41ff43656a6a
   - enabled: 1
-    path: Assets/Scenes/Gameplay/Challenge Scenes/Challenge1.unity
+    path: Assets/Scenes/Challenge Scenes/Challenge1.unity
     guid: bb0406088b8b4754aa2575eb4abe0391
   - enabled: 1
-    path: Assets/Scenes/Gameplay/Challenge Scenes/Challenge2.unity
+    path: Assets/Scenes/Challenge Scenes/Challenge2.unity
     guid: 72766ba3c59c87e4684bb742ddff7dbb
   - enabled: 1
-    path: Assets/Scenes/Gameplay/Challenge Scenes/Challenge3.unity
+    path: Assets/Scenes/Challenge Scenes/Challenge3.unity
     guid: 9252986aa642bb6469a14e23cfe88316
   - enabled: 1
-    path: Assets/Scenes/Gameplay/Challenge Scenes/Challenge4.unity
+    path: Assets/Scenes/Challenge Scenes/Challenge4.unity
     guid: af3d411186ec8e444b4bddd67f7dd775
   - enabled: 1
-    path: Assets/Scenes/Gameplay/Challenge Scenes/Challenge5.unity
+    path: Assets/Scenes/Challenge Scenes/Challenge5.unity
     guid: 044fcef008cfd51498ac7f16996bd0e2
+  - enabled: 1
+    path: Assets/Scenes/Challenge Scenes/Challenge6.unity
+    guid: 549fe1cd7dfc28740a184178127020c4
+  - enabled: 1
+    path: Assets/Scenes/Challenge Scenes/Challenge7.unity
+    guid: 4daead4104b4f4448b5906125f1ef4a2
+  - enabled: 1
+    path: Assets/Scenes/Challenge Scenes/Challenge8.unity
+    guid: 0c37a2984d67f0e40a23e5d7a3a7aee9
+  - enabled: 1
+    path: Assets/Scenes/Challenge Scenes/Challenge9.unity
+    guid: 8d7f7817a9f93e14a90263767eff9017
+  - enabled: 1
+    path: Assets/Scenes/Challenge Scenes/Challenge10.unity
+    guid: 80aa2a40a7f591a4cbf7fe62cd4710ce
+  - enabled: 1
+    path: Assets/Scenes/Challenge Scenes/Challenge11.unity
+    guid: aecf5c80f098ce048b0b7af3d7a84a90
+  - enabled: 1
+    path: Assets/Scenes/Challenge Scenes/Challenge12.unity
+    guid: 23a0b1e8780871743bb97224481e01e1
+  - enabled: 1
+    path: Assets/Scenes/Challenge Scenes/Challenge13.unity
+    guid: 8c685dc125cccb14eb9b4b0b66529fb7
+  - enabled: 1
+    path: Assets/Scenes/Challenge Scenes/Challenge14.unity
+    guid: 1bab7bcdb89114e408d7186b4ad54181
+  - enabled: 1
+    path: Assets/Scenes/Challenge Scenes/Challenge15.unity
+    guid: e08098606d0fa1c4182ddf939e2f92a8
   - enabled: 1
     path: Assets/Scenes/Gameplay/LoseScene.unity
     guid: 42560efcbd8cbc44287412030f2dab2c
