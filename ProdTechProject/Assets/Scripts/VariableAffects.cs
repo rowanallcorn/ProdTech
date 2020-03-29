@@ -60,11 +60,10 @@ public class VariableAffects : MonoBehaviour
             PlayerPrefs.SetString("SceneCurrent", "LoseScene");
             SceneManager.LoadScene("LoseScene"); }
 
-        Analytics.CustomEvent("Money Change", new Dictionary<string, object>
+        Analytics.CustomEvent(SceneManager.GetActiveScene().name, new Dictionary<string, object>
         {  { "Money Change", moneyChange},
             { "Prestige Change", prestigeChange},
             { "Beetroot Change", beetrootChange},
-            { "Scene Name", SceneManager.GetActiveScene().name}
         }); 
                 
 
