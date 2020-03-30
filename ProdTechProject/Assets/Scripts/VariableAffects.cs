@@ -47,26 +47,33 @@ public class VariableAffects : MonoBehaviour
     /// same as above
     public void updateVariableValues(int moneyChange, int prestigeChange, int beetrootChange)
     {
-        moneyValue = moneyValue + moneyChange;
-        prestigeValue = prestigeValue+ prestigeChange;
-        beetrootValue = beetrootValue+ beetrootChange; 
+        //change the values of stats and variables if they are below ten
+        if (moneyValue + moneyChange > 10) { moneyValue = 10;  }
+        else moneyValue = moneyValue + moneyChange;
+        if (prestigeValue + prestigeChange > 10) { prestigeValue = 10; }
+        else prestigeValue = prestigeValue+ prestigeChange;
+        if (beetrootValue + beetrootChange > 10) { beetrootValue = 10; }
+        else beetrootValue = beetrootValue+ beetrootChange; 
 
+        //set UI elements to correspond to changes
         money.text = ("Money: " + moneyValue + "/10");
         prestige.text = ("Prestige: " + prestigeValue + "/10");
         beetroot.text = ("Beetroot: " + beetrootValue + "/10");
 
+        //if any value has hit 0, lose the game
         if (moneyValue <= 0 || prestigeValue <= 0 || beetrootValue <= 0)
         {
             PlayerPrefs.SetString("SceneCurrent", "LoseScene");
             SceneManager.LoadScene("LoseScene"); }
 
+        //send alalytics data
         Analytics.CustomEvent(SceneManager.GetActiveScene().name, new Dictionary<string, object>
         {  { "Money Change", moneyChange},
             { "Prestige Change", prestigeChange},
             { "Beetroot Change", beetrootChange},
         }); 
                 
-
+        //save player data
         PlayerPrefs.SetInt("money", moneyValue);
         PlayerPrefs.SetInt("prestige", prestigeValue);
         PlayerPrefs.SetInt("beetroot", beetrootValue);
