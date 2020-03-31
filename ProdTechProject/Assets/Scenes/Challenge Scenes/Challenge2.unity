@@ -392,11 +392,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 7650568133391801876, guid: 46e658825d3703640a6eaac0c74b2d4c,
-        type: 3}
-      propertyPath: m_Name
-      value: Jester
-      objectReference: {fileID: 0}
     - target: {fileID: 2546777913622837198, guid: 46e658825d3703640a6eaac0c74b2d4c,
         type: 3}
       propertyPath: m_Name
@@ -522,6 +517,11 @@ PrefabInstance:
       propertyPath: commandList.Array.data[6]
       value: 
       objectReference: {fileID: 1208746149}
+    - target: {fileID: 2546777912222495529, guid: 46e658825d3703640a6eaac0c74b2d4c,
+        type: 3}
+      propertyPath: nodeRect.y
+      value: 71.5625
+      objectReference: {fileID: 0}
     - target: {fileID: 2546777912222495528, guid: 46e658825d3703640a6eaac0c74b2d4c,
         type: 3}
       propertyPath: commandList.Array.size
@@ -575,7 +575,7 @@ PrefabInstance:
     - target: {fileID: 2546777912222495534, guid: 46e658825d3703640a6eaac0c74b2d4c,
         type: 3}
       propertyPath: nodeRect.y
-      value: 61.9468
+      value: 60.3843
       objectReference: {fileID: 0}
     - target: {fileID: 2546777912222495534, guid: 46e658825d3703640a6eaac0c74b2d4c,
         type: 3}
@@ -615,7 +615,7 @@ PrefabInstance:
     - target: {fileID: 2546777912222495504, guid: 46e658825d3703640a6eaac0c74b2d4c,
         type: 3}
       propertyPath: text
-      value: Publicly humilliate Purrly
+      value: Publicly humiliate Purrly
       objectReference: {fileID: 0}
     - target: {fileID: 2478804328556228379, guid: 46e658825d3703640a6eaac0c74b2d4c,
         type: 3}
@@ -652,6 +652,11 @@ PrefabInstance:
       propertyPath: commandList.Array.data[2]
       value: 
       objectReference: {fileID: 1208746143}
+    - target: {fileID: 7650568133391801876, guid: 46e658825d3703640a6eaac0c74b2d4c,
+        type: 3}
+      propertyPath: m_Name
+      value: Jester
+      objectReference: {fileID: 0}
     - target: {fileID: 2546777913512364359, guid: 46e658825d3703640a6eaac0c74b2d4c,
         type: 3}
       propertyPath: portraits.Array.data[2]
@@ -897,7 +902,7 @@ MonoBehaviour:
       typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       typeFullname: System.Int32
-      intValue: 2
+      intValue: -1
       boolValue: 0
       floatValue: 0
       stringValue: 
@@ -931,7 +936,7 @@ MonoBehaviour:
       typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       typeFullname: System.Int32
-      intValue: 2
+      intValue: 1
       boolValue: 0
       floatValue: 0
       stringValue: 
@@ -996,8 +1001,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 23
   indentLevel: 0
-  storyText: Off with your head you foolish guard for bringing this rediclulous situation
-    to me! Guards Take him away!
+  storyText: Off with your head you foolish guard! Wasting my time with this ridiculous
+    situation to me! Guards, take him away!
   description: 
   character: {fileID: 1630442902}
   portrait: {fileID: 0}
@@ -1051,7 +1056,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 21
   indentLevel: 0
-  storyText: Have everyone gathered at the courtyard and tie her up to a pole so others
+  storyText: Have everyone gather at the courtyard and tie her up to a pole, so others
     can pelt oranges at her!
   description: 
   character: {fileID: 1630442902}
@@ -1079,7 +1084,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 20
   indentLevel: 0
-  storyText: Release her! Its about time someone did something to that stupid Jester
+  storyText: Release her! It's about time someone did something to that stupid Jester
     for his silly tricks.
   description: 
   character: {fileID: 1630442902}
@@ -1107,7 +1112,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 19
   indentLevel: 0
-  storyText: Quiet you fool! What shall we do with her?
+  storyText: Quiet, you fool! What shall we do with her?
   description: 
   character: {fileID: 9741925}
   portrait: {fileID: 0}
@@ -1134,7 +1139,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 18
   indentLevel: 0
-  storyText: The Jesters performance was awful your highness! He used the same performance
+  storyText: The Jester's performance was awful Your Highness! He used the same performance
     last week!
   description: 
   character: {fileID: 65470800}
@@ -1162,8 +1167,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 17
   indentLevel: 0
-  storyText: "Your Royal Highness, Purrly here was in the courtyard during the Jesters
-    performance earlier today. During one of his acts she threw an \rorange at his
+  storyText: "Your Royal Highness, Purrly here was in the courtyard during the Jester's
+    performance earlier today. During one of his acts, she threw an \rorange at his
     head and started heckling him!"
   description: 
   character: {fileID: 9741925}
@@ -1344,7 +1349,7 @@ MonoBehaviour:
       typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       typeFullname: System.Int32
-      intValue: 1
+      intValue: -1
       boolValue: 0
       floatValue: 0
       stringValue: 
@@ -1378,7 +1383,7 @@ MonoBehaviour:
       typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       typeFullname: System.Int32
-      intValue: 1
+      intValue: 2
       boolValue: 0
       floatValue: 0
       stringValue: 
@@ -1423,7 +1428,7 @@ MonoBehaviour:
       typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       typeFullname: System.Int32
-      intValue: -2
+      intValue: -1
       boolValue: 0
       floatValue: 0
       stringValue: 
@@ -1457,7 +1462,7 @@ MonoBehaviour:
       typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       typeFullname: System.Int32
-      intValue: -2
+      intValue: -1
       boolValue: 0
       floatValue: 0
       stringValue: 
@@ -1502,7 +1507,7 @@ MonoBehaviour:
       typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       typeFullname: System.Int32
-      intValue: -1
+      intValue: 0
       boolValue: 0
       floatValue: 0
       stringValue: 

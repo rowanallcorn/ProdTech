@@ -332,6 +332,16 @@ PrefabInstance:
       propertyPath: commandList.Array.data[2]
       value: 
       objectReference: {fileID: 280986865}
+    - target: {fileID: 2546777912222495535, guid: 46e658825d3703640a6eaac0c74b2d4c,
+        type: 3}
+      propertyPath: nodeRect.x
+      value: 612.54407
+      objectReference: {fileID: 0}
+    - target: {fileID: 2546777912222495535, guid: 46e658825d3703640a6eaac0c74b2d4c,
+        type: 3}
+      propertyPath: nodeRect.y
+      value: -25.766064
+      objectReference: {fileID: 0}
     - target: {fileID: 2546777912222495534, guid: 46e658825d3703640a6eaac0c74b2d4c,
         type: 3}
       propertyPath: commandList.Array.size
@@ -380,7 +390,7 @@ PrefabInstance:
     - target: {fileID: 2546777912222495506, guid: 46e658825d3703640a6eaac0c74b2d4c,
         type: 3}
       propertyPath: text
-      value: Pink Cape
+      value: Pink cape
       objectReference: {fileID: 0}
     - target: {fileID: 2546777912222495505, guid: 46e658825d3703640a6eaac0c74b2d4c,
         type: 3}
@@ -395,7 +405,7 @@ PrefabInstance:
     - target: {fileID: 2546777912222495504, guid: 46e658825d3703640a6eaac0c74b2d4c,
         type: 3}
       propertyPath: text
-      value: Purple Cape
+      value: Purple cape
       objectReference: {fileID: 0}
     - target: {fileID: 2478804328556228379, guid: 46e658825d3703640a6eaac0c74b2d4c,
         type: 3}
@@ -563,7 +573,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 16
   indentLevel: 0
-  storyText: The purple one of course!
+  storyText: The purple one, of course!
   description: 
   character: {fileID: 280986862}
   portrait: {fileID: 0}
@@ -590,7 +600,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 18
   indentLevel: 0
-  storyText: The pink one of course!
+  storyText: The pink one, of course!
   description: 
   character: {fileID: 280986862}
   portrait: {fileID: 0}
@@ -710,7 +720,7 @@ MonoBehaviour:
       typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       typeFullname: System.Int32
-      intValue: -1
+      intValue: -2
       boolValue: 0
       floatValue: 0
       stringValue: 
@@ -727,7 +737,7 @@ MonoBehaviour:
       typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       typeFullname: System.Int32
-      intValue: -1
+      intValue: 0
       boolValue: 0
       floatValue: 0
       stringValue: 
@@ -789,7 +799,7 @@ MonoBehaviour:
       typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       typeFullname: System.Int32
-      intValue: 1
+      intValue: 2
       boolValue: 0
       floatValue: 0
       stringValue: 
@@ -806,7 +816,7 @@ MonoBehaviour:
       typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       typeFullname: System.Int32
-      intValue: 1
+      intValue: 0
       boolValue: 0
       floatValue: 0
       stringValue: 

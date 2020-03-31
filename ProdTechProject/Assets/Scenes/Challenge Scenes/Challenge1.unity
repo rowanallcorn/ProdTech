@@ -502,6 +502,11 @@ PrefabInstance:
       propertyPath: commandList.Array.data[2]
       value: 
       objectReference: {fileID: 472951816}
+    - target: {fileID: 2546777912222495535, guid: 46e658825d3703640a6eaac0c74b2d4c,
+        type: 3}
+      propertyPath: nodeRect.y
+      value: -28.095716
+      objectReference: {fileID: 0}
     - target: {fileID: 2546777912222495534, guid: 46e658825d3703640a6eaac0c74b2d4c,
         type: 3}
       propertyPath: commandList.Array.size
@@ -655,8 +660,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 19
   indentLevel: 0
-  storyText: King! We found Ribbisford eating flies last Tuesday just outside of his
-    farm near the water hole! What shall we do with him?
+  storyText: King! We found Ribbidsford eating flies last Tuesday, just outside of
+    his farm! What shall we do with him?
   description: 
   character: {fileID: 472951800}
   portrait: {fileID: 0}
@@ -747,8 +752,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 21
   indentLevel: 0
-  storyText: Release him at once! He was just eating you brainless guard! What were
-    you thinking!
+  storyText: Release him at once! He was just eating, you brainless guard! What were
+    you thinking arresting him!?
   description: 
   character: {fileID: 98118099}
   portrait: {fileID: 0}
@@ -845,7 +850,7 @@ MonoBehaviour:
       typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       typeFullname: System.Int32
-      intValue: -1
+      intValue: 0
       boolValue: 0
       floatValue: 0
       stringValue: 
@@ -924,7 +929,7 @@ MonoBehaviour:
       typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       typeFullname: System.Int32
-      intValue: 1
+      intValue: -1
       boolValue: 0
       floatValue: 0
       stringValue: 

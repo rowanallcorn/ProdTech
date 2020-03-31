@@ -473,6 +473,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &280986863 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1922034917855220436, guid: 46e658825d3703640a6eaac0c74b2d4c,
+    type: 3}
+  m_PrefabInstance: {fileID: 280986860}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &280986864 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2546777912222495510, guid: 46e658825d3703640a6eaac0c74b2d4c,
@@ -722,7 +734,7 @@ MonoBehaviour:
       typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       typeFullname: System.Int32
-      intValue: 3
+      intValue: 0
       boolValue: 0
       floatValue: 0
       stringValue: 
@@ -739,7 +751,7 @@ MonoBehaviour:
       typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       typeFullname: System.Int32
-      intValue: 3
+      intValue: 2
       boolValue: 0
       floatValue: 0
       stringValue: 
@@ -756,7 +768,7 @@ MonoBehaviour:
       typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       typeFullname: System.Int32
-      intValue: 3
+      intValue: 1
       boolValue: 0
       floatValue: 0
       stringValue: 
@@ -790,9 +802,9 @@ MonoBehaviour:
   indentLevel: 0
   display: 1
   stage: {fileID: 0}
-  character: {fileID: 280986879}
+  character: {fileID: 280986863}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 02d8d436795118e4e8251efa2e9af73e, type: 3}
+  portrait: {fileID: 21300000, guid: cafd1b3a256c47d428b71ad07f06d8dd, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 554009908}
@@ -831,7 +843,7 @@ MonoBehaviour:
       typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       typeFullname: System.Int32
-      intValue: -2
+      intValue: -1
       boolValue: 0
       floatValue: 0
       stringValue: 
@@ -848,7 +860,7 @@ MonoBehaviour:
       typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       typeFullname: System.Int32
-      intValue: -2
+      intValue: -3
       boolValue: 0
       floatValue: 0
       stringValue: 
@@ -865,7 +877,7 @@ MonoBehaviour:
       typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       typeFullname: System.Int32
-      intValue: -2
+      intValue: 1
       boolValue: 0
       floatValue: 0
       stringValue: 
@@ -883,18 +895,6 @@ MonoBehaviour:
   returnValueType: System.Void
   showInherited: 0
   callMode: 0
---- !u!114 &280986879 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2126702790819240016, guid: 46e658825d3703640a6eaac0c74b2d4c,
-    type: 3}
-  m_PrefabInstance: {fileID: 280986860}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &280986880
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -929,9 +929,9 @@ MonoBehaviour:
   itemId: 25
   indentLevel: 0
   storyText: As I told the Guard, your Highness, I didn't see an issue with it on
-    days like today!
+    a day like today!
   description: 
-  character: {fileID: 0}
+  character: {fileID: 280986863}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1

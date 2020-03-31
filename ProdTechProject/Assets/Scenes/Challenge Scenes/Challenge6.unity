@@ -322,6 +322,16 @@ PrefabInstance:
       propertyPath: commandList.Array.data[2]
       value: 
       objectReference: {fileID: 280986865}
+    - target: {fileID: 2546777912222495535, guid: 46e658825d3703640a6eaac0c74b2d4c,
+        type: 3}
+      propertyPath: nodeRect.x
+      value: 612.74603
+      objectReference: {fileID: 0}
+    - target: {fileID: 2546777912222495535, guid: 46e658825d3703640a6eaac0c74b2d4c,
+        type: 3}
+      propertyPath: nodeRect.y
+      value: -28.095716
+      objectReference: {fileID: 0}
     - target: {fileID: 2546777912222495534, guid: 46e658825d3703640a6eaac0c74b2d4c,
         type: 3}
       propertyPath: commandList.Array.size
@@ -345,7 +355,7 @@ PrefabInstance:
     - target: {fileID: 2546777912222495534, guid: 46e658825d3703640a6eaac0c74b2d4c,
         type: 3}
       propertyPath: nodeRect.y
-      value: 66.20212
+      value: 65.06576
       objectReference: {fileID: 0}
     - target: {fileID: 2546777912222495532, guid: 46e658825d3703640a6eaac0c74b2d4c,
         type: 3}
@@ -407,6 +417,11 @@ PrefabInstance:
       propertyPath: commandList.Array.data[2]
       value: 
       objectReference: {fileID: 280986863}
+    - target: {fileID: 2546777912222495533, guid: 46e658825d3703640a6eaac0c74b2d4c,
+        type: 3}
+      propertyPath: nodeRect.x
+      value: 619.96234
+      objectReference: {fileID: 0}
     - target: {fileID: 2546777913247753175, guid: 46e658825d3703640a6eaac0c74b2d4c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -417,6 +432,12 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2546777913512364359, guid: 46e658825d3703640a6eaac0c74b2d4c,
+        type: 3}
+      propertyPath: portraits.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: 163659a503000644ea7562d5e9859404,
+        type: 3}
     m_RemovedComponents:
     - {fileID: 4259277679668012079, guid: 46e658825d3703640a6eaac0c74b2d4c, type: 3}
     - {fileID: 8462029072463413852, guid: 46e658825d3703640a6eaac0c74b2d4c, type: 3}
@@ -540,7 +561,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 17
   indentLevel: 0
-  storyText: It's just a tongue you idiot! Who cares? Release him at once.
+  storyText: It is just a tongue, you fool! Who cares? Release him at once.
   description: 
   character: {fileID: 280986862}
   portrait: {fileID: 0}
@@ -567,7 +588,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 16
   indentLevel: 0
-  storyText: Off with Meowington IV's head! That tongue is past the limit!
+  storyText: Off with Meowington IV's head! That tongue is way past the allowed limit!
   description: 
   character: {fileID: 280986862}
   portrait: {fileID: 0}
@@ -594,7 +615,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 18
   indentLevel: 0
-  storyText: Exile Meowington IV! What a disgrace you have brought to this kingdom...
+  storyText: Exile Meowington IV! What a disgrace he has brought to this kingdom...
     Look at the size of that thing!
   description: 
   character: {fileID: 280986862}
@@ -652,8 +673,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 20
   indentLevel: 0
-  storyText: Your Royalty! I found a tongue in a jar thats the size of a chalace in
-    Meowington IV's home! What would you like me to do?
+  storyText: Your Royal Highness! I found a tongue in a jar, the size of a chalace,
+    in Meowington IV's home! What would you like me to do?
   description: 
   character: {fileID: 280986881}
   portrait: {fileID: 0}
@@ -699,7 +720,7 @@ MonoBehaviour:
       typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       typeFullname: System.Int32
-      intValue: 1
+      intValue: 0
       boolValue: 0
       floatValue: 0
       stringValue: 
@@ -716,7 +737,7 @@ MonoBehaviour:
       typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       typeFullname: System.Int32
-      intValue: 1
+      intValue: 2
       boolValue: 0
       floatValue: 0
       stringValue: 
@@ -778,7 +799,7 @@ MonoBehaviour:
       typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       typeFullname: System.Int32
-      intValue: -2
+      intValue: 0
       boolValue: 0
       floatValue: 0
       stringValue: 
@@ -874,7 +895,7 @@ MonoBehaviour:
       typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       typeFullname: System.Int32
-      intValue: -1
+      intValue: -2
       boolValue: 0
       floatValue: 0
       stringValue: 
@@ -891,7 +912,7 @@ MonoBehaviour:
       typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       typeFullname: System.Int32
-      intValue: -1
+      intValue: 2
       boolValue: 0
       floatValue: 0
       stringValue: 

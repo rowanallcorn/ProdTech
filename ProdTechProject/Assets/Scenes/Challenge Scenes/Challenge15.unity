@@ -365,12 +365,12 @@ PrefabInstance:
     - target: {fileID: 2546777912222495506, guid: 46e658825d3703640a6eaac0c74b2d4c,
         type: 3}
       propertyPath: text
-      value: Dont help Jackrabbit
+      value: Don't help Jackrabbit
       objectReference: {fileID: 0}
     - target: {fileID: 2546777912222495505, guid: 46e658825d3703640a6eaac0c74b2d4c,
         type: 3}
       propertyPath: text
-      value: Kill Cathy
+      value: Execute Cathy
       objectReference: {fileID: 0}
     - target: {fileID: 2546777912222495504, guid: 46e658825d3703640a6eaac0c74b2d4c,
         type: 3}
@@ -700,7 +700,7 @@ MonoBehaviour:
       typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       typeFullname: System.Int32
-      intValue: -3
+      intValue: 0
       boolValue: 0
       floatValue: 0
       stringValue: 
@@ -734,7 +734,7 @@ MonoBehaviour:
       typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       typeFullname: System.Int32
-      intValue: -3
+      intValue: 1
       boolValue: 0
       floatValue: 0
       stringValue: 
@@ -779,7 +779,7 @@ MonoBehaviour:
       typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       typeFullname: System.Int32
-      intValue: 1
+      intValue: -1
       boolValue: 0
       floatValue: 0
       stringValue: 
@@ -813,7 +813,7 @@ MonoBehaviour:
       typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       typeFullname: System.Int32
-      intValue: 1
+      intValue: 3
       boolValue: 0
       floatValue: 0
       stringValue: 
@@ -875,7 +875,7 @@ MonoBehaviour:
       typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       typeFullname: System.Int32
-      intValue: 2
+      intValue: 3
       boolValue: 0
       floatValue: 0
       stringValue: 
@@ -892,7 +892,7 @@ MonoBehaviour:
       typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       typeFullname: System.Int32
-      intValue: 2
+      intValue: 1
       boolValue: 0
       floatValue: 0
       stringValue: 

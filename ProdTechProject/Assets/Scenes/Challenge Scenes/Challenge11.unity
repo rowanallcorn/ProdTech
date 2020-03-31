@@ -460,7 +460,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 --- !u!114 &280986863 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 128162703182631831, guid: 46e658825d3703640a6eaac0c74b2d4c,
+  m_CorrespondingSourceObject: {fileID: 7374790750195796893, guid: 46e658825d3703640a6eaac0c74b2d4c,
     type: 3}
   m_PrefabInstance: {fileID: 280986860}
   m_PrefabAsset: {fileID: 0}
@@ -616,7 +616,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 280986863}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 162f7067e78265e4ebb03f1aeab934ae, type: 3}
+  portrait: {fileID: 21300000, guid: 189c4e50d6f5a9840a1d97d0f1b7c3ef, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 554009908}
@@ -646,7 +646,7 @@ MonoBehaviour:
     should grow, so I can get more value out of it. I'm either going to grow blueberries
     or apples, what do you think?
   description: 
-  character: {fileID: 0}
+  character: {fileID: 280986863}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -690,7 +690,7 @@ MonoBehaviour:
       typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       typeFullname: System.Int32
-      intValue: 1
+      intValue: 0
       boolValue: 0
       floatValue: 0
       stringValue: 
@@ -707,7 +707,7 @@ MonoBehaviour:
       typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       typeFullname: System.Int32
-      intValue: 1
+      intValue: 2
       boolValue: 0
       floatValue: 0
       stringValue: 
@@ -724,7 +724,7 @@ MonoBehaviour:
       typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       typeFullname: System.Int32
-      intValue: 1
+      intValue: 0
       boolValue: 0
       floatValue: 0
       stringValue: 
@@ -769,7 +769,7 @@ MonoBehaviour:
       typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       typeFullname: System.Int32
-      intValue: -1
+      intValue: 0
       boolValue: 0
       floatValue: 0
       stringValue: 
@@ -786,7 +786,7 @@ MonoBehaviour:
       typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       typeFullname: System.Int32
-      intValue: -1
+      intValue: -2
       boolValue: 0
       floatValue: 0
       stringValue: 
@@ -803,7 +803,7 @@ MonoBehaviour:
       typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       typeFullname: System.Int32
-      intValue: -1
+      intValue: 0
       boolValue: 0
       floatValue: 0
       stringValue: 

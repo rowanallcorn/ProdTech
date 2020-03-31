@@ -370,7 +370,7 @@ PrefabInstance:
     - target: {fileID: 2546777912222495506, guid: 46e658825d3703640a6eaac0c74b2d4c,
         type: 3}
       propertyPath: text
-      value: Exile Meowington V
+      value: Exile Meowington III
       objectReference: {fileID: 0}
     - target: {fileID: 2546777912222495505, guid: 46e658825d3703640a6eaac0c74b2d4c,
         type: 3}
@@ -385,7 +385,7 @@ PrefabInstance:
     - target: {fileID: 2546777912222495504, guid: 46e658825d3703640a6eaac0c74b2d4c,
         type: 3}
       propertyPath: text
-      value: Kill Guard
+      value: Execute the guard
       objectReference: {fileID: 0}
     - target: {fileID: 2478804328556228379, guid: 46e658825d3703640a6eaac0c74b2d4c,
         type: 3}
@@ -427,6 +427,17 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5017362855612433527, guid: 46e658825d3703640a6eaac0c74b2d4c,
+        type: 3}
+      propertyPath: m_Name
+      value: MeowingtonIII
+      objectReference: {fileID: 0}
+    - target: {fileID: 2126702790819240016, guid: 46e658825d3703640a6eaac0c74b2d4c,
+        type: 3}
+      propertyPath: portraits.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: 02d8d436795118e4e8251efa2e9af73e,
+        type: 3}
     m_RemovedComponents:
     - {fileID: 4259277679668012079, guid: 46e658825d3703640a6eaac0c74b2d4c, type: 3}
     - {fileID: 8462029072463413852, guid: 46e658825d3703640a6eaac0c74b2d4c, type: 3}
@@ -542,7 +553,7 @@ MonoBehaviour:
   itemId: 16
   indentLevel: 0
   storyText: 'Guards! Find the one who did this and chop off his head! No one shall
-    touch the grapes! Thank you, Meowington V. '
+    touch the grapes! Thank you, Meowington III. '
   description: 
   character: {fileID: 280986862}
   portrait: {fileID: 0}
@@ -569,9 +580,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 18
   indentLevel: 0
-  storyText: 'It''s just grapes? Obviously you dont know the laws and your just trying
-    to get revenge on the Guard for your father. Now you can join him! Guards, take
-    him away! '
+  storyText: 'Just grapes? Obviously you don''t know the laws and now attempting to
+    get revenge on the Guard for your father. Now you can join him! Guards, take him
+    away! '
   description: 
   character: {fileID: 280986862}
   portrait: {fileID: 0}
@@ -602,7 +613,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 280986879}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 02d8d436795118e4e8251efa2e9af73e, type: 3}
+  portrait: {fileID: 21300000, guid: 02e6d7c1868932940b6a21f9c2aa7250, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 554009908}
@@ -628,8 +639,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 20
   indentLevel: 0
-  storyText: Your Royalty! I saw this guard eating a grape from the mystical grapevine
-    earlier today! I didn't know what to do, so I came to you first!
+  storyText: My Leige! I saw a guard eating a grape from the sacred grapevine, earlier
+    today! I didn't know what to do, so I came to you first!
   description: 
   character: {fileID: 280986879}
   portrait: {fileID: 0}
@@ -675,7 +686,7 @@ MonoBehaviour:
       typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       typeFullname: System.Int32
-      intValue: 3
+      intValue: -1
       boolValue: 0
       floatValue: 0
       stringValue: 
@@ -692,7 +703,7 @@ MonoBehaviour:
       typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       typeFullname: System.Int32
-      intValue: 3
+      intValue: -3
       boolValue: 0
       floatValue: 0
       stringValue: 
@@ -709,7 +720,7 @@ MonoBehaviour:
       typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       typeFullname: System.Int32
-      intValue: 3
+      intValue: 1
       boolValue: 0
       floatValue: 0
       stringValue: 
@@ -771,7 +782,7 @@ MonoBehaviour:
       typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       typeFullname: System.Int32
-      intValue: -1
+      intValue: 1
       boolValue: 0
       floatValue: 0
       stringValue: 
@@ -788,7 +799,7 @@ MonoBehaviour:
       typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       typeFullname: System.Int32
-      intValue: -1
+      intValue: 2
       boolValue: 0
       floatValue: 0
       stringValue: 
