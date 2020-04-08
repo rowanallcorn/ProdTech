@@ -258,7 +258,6 @@ GameObject:
   - component: {fileID: 120669679}
   - component: {fileID: 120669678}
   - component: {fileID: 120669677}
-  - component: {fileID: 120669676}
   - component: {fileID: 120669674}
   - component: {fileID: 120669673}
   - component: {fileID: 120669699}
@@ -362,23 +361,6 @@ MonoBehaviour:
   shiftOffset: {x: 0, y: 0}
   move: 0
   shiftIntoPlace: 0
-  waitUntilFinished: 0
---- !u!114 &120669676
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 120669672}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 616cd37e21c7645c58a89edf5abee56f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 12
-  indentLevel: 0
-  duration: 0.3
-  amount: {x: 1, y: 1}
   waitUntilFinished: 0
 --- !u!114 &120669677
 MonoBehaviour:
@@ -679,7 +661,6 @@ MonoBehaviour:
   commandList:
   - {fileID: 120669686}
   - {fileID: 120669699}
-  - {fileID: 120669676}
   - {fileID: 120669681}
   - {fileID: 120669675}
   - {fileID: 120669682}
@@ -763,7 +744,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 120669687}
   selectedCommands:
-  - {fileID: 120669693}
+  - {fileID: 120669681}
   variables: []
   description: 
   stepPause: 0
