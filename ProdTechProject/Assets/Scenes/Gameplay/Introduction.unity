@@ -267,6 +267,8 @@ GameObject:
   - component: {fileID: 120669675}
   - component: {fileID: 120669700}
   - component: {fileID: 120669684}
+  - component: {fileID: 120669693}
+  - component: {fileID: 120669692}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -288,9 +290,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 15
   indentLevel: 0
-  storyText: 'It has been a fun exploration so far- you''ve been to tall mountians,
+  storyText: It has been a fun exploration so far- you've been to tall mountians,
     colorful festivals, and now this quaint little town off of the beaten path. The
-    locals here seem- '
+    locals here seem-
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -448,7 +450,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 9
   indentLevel: 0
-  storyText: (Oh no)
+  storyText: '(...) '
   description: 
   character: {fileID: 545030990}
   portrait: {fileID: 0}
@@ -502,7 +504,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 7
   indentLevel: 0
-  storyText: 'What? Who are you? '
+  storyText: 'What? Who are you? Are you talking to me?? '
   description: 
   character: {fileID: 545030990}
   portrait: {fileID: 0}
@@ -529,8 +531,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 6
   indentLevel: 0
-  storyText: 'Hahaa, silly king!  it is I, your noble and humble advisor in the court
-    of law. '
+  storyText: Hahaa, silly king, always playing jokes! it is I, your noble and humble
+    advisor in the court of law. The one that you run!
   description: 
   character: {fileID: 1436647766}
   portrait: {fileID: 0}
@@ -557,8 +559,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 5
   indentLevel: 0
-  storyText: 'Come now, there are matters of urgent importance that require your attention!
-    Right now! '
+  storyText: Come now, there are matters of urgent importance that require your attention!
+    Right now! Lives are at stake, and your judgement is needed!
   description: 
   character: {fileID: 1436647766}
   portrait: {fileID: 0}
@@ -636,7 +638,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 2
   indentLevel: 0
-  storyText: Oh!! Oh, it's you!! I've been looking all over for you!!!
+  storyText: 'Oh!! Oh, it''s you!! I''ve been looking all over for you!!! Sir!!! Yes,
+    you!!! '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -663,7 +666,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 397.21054
+    x: 398.21054
     y: 96.78941
     width: 188
     height: 40
@@ -687,7 +690,9 @@ MonoBehaviour:
   - {fileID: 120669677}
   - {fileID: 120669684}
   - {fileID: 120669694}
+  - {fileID: 120669692}
   - {fileID: 120669679}
+  - {fileID: 120669693}
   - {fileID: 120669700}
 --- !u!114 &120669688
 MonoBehaviour:
@@ -755,9 +760,10 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 120669687}
   selectedCommands:
-  - {fileID: 120669696}
+  - {fileID: 120669693}
   variables: []
   description: 
   stepPause: 0
@@ -783,6 +789,60 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &120669692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 120669672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 29
+  indentLevel: 0
+  storyText: '(... Intricate knowledge of their laws? I just got here!) '
+  description: 
+  character: {fileID: 545030990}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &120669693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 120669672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 28
+  indentLevel: 0
+  storyText: (Oh no)
+  description: 
+  character: {fileID: 545030990}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &120669694
 MonoBehaviour:
   m_ObjectHideFlags: 2
