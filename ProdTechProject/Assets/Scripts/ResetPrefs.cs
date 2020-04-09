@@ -8,7 +8,15 @@ public class ResetPrefs : MonoBehaviour
     //declare staring variables
     public int MoneySt;
     public int prestSt;
-    public int beetSt; 
+    public int beetSt;
+
+    public void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Alpha2) || Input.GetKeyDown(KeyCode.Keypad2))
+        {
+            resetAllPrefs();
+        }
+    }
 
     public void resetAllPrefs()
 
