@@ -16,6 +16,14 @@ public class StartGame : MonoBehaviour
         { PlayerPrefs.SetString("SceneCurrent", "Introduction"); }
     }
 
+    public void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Alpha1) || Input.GetKeyDown(KeyCode.Keypad1))
+        {
+            StartAtLastScene();
+        }
+    }
+
     //start the game- if the game is still in the introduction scene, set the values of the game stats 
     // to starting values. Otherwise, load the scene the player was last on. 
     public void StartAtLastScene()
