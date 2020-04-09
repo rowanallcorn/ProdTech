@@ -237,7 +237,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 2546777913552600792}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 8e8624ee441013647a8ba374592b5272, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -265,7 +265,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 2546777913552600792}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 92bd909c1471c7a438a0919042bb022d, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -323,7 +323,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 2546777912325742586}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: d59c8c474435fc94b8eda8fb5e3fd723, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -2064,7 +2064,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 69.98508
     y: 70
-    width: 120
+    width: 123.62642
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2103,6 +2103,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 2546777913141667247}
   - {fileID: 2546777913141667245}
+  - {fileID: 2546777913141667239}
 --- !u!114 &2546777913141667223
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2116,11 +2117,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 271.54205, y: 280.888}
+  scrollPos: {x: 93.61845, y: 173.71179}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.66999966
+  zoom: 0.90999943
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -2128,9 +2129,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 2546777913141667220}
+  - {fileID: 2546777913141667221}
   selectedCommands:
-  - {fileID: 155474307}
+  - {fileID: 2546777913141667239}
   variables: []
   description: 
   stepPause: 0
@@ -2171,6 +2172,7 @@ GameObject:
   - component: {fileID: 155474309}
   - component: {fileID: 155474312}
   - component: {fileID: 155474315}
+  - component: {fileID: 2546777913141667239}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -2178,6 +2180,23 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &2546777913141667239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2546777913141667238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 24
+  indentLevel: 0
+  soundClip: {fileID: 8300000, guid: 4c156d05d1982e84bb534b7ea1ac6ad4, type: 3}
+  volume: 1
+  waitUntilFinished: 0
 --- !u!4 &2546777913141667241
 Transform:
   m_ObjectHideFlags: 0

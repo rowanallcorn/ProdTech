@@ -627,12 +627,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 19
   indentLevel: 0
-  storyText: Greetings Sire, it is I, the profound Jack the Jester. I wish to request
-    your blessing on my performance at the tavern this evening?
+  storyText: Greetings Sire, it is I, the profound Jackrabbit the Jester. I wish to
+    request your blessing on my performance at the tavern this evening?
   description: 
   character: {fileID: 8025876320916374823}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 081dbad4d8c13ed4591746ff4a686062, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -674,7 +674,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 8e9c8b6e254765a4aba45fcdc622d26c, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -702,7 +702,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: c322482948ab3f141906c19956c8e06f, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -1812,6 +1812,7 @@ GameObject:
   - component: {fileID: 2120353897}
   - component: {fileID: 2120353898}
   - component: {fileID: 2120353899}
+  - component: {fileID: 2546777913998916425}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1833,6 +1834,23 @@ Transform:
   m_Father: {fileID: 2546777912580685715}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2546777913998916425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2546777913998916423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 23
+  indentLevel: 0
+  soundClip: {fileID: 8300000, guid: 47b31e579ee0fa8458a0830f5610fdbf, type: 3}
+  volume: 1
+  waitUntilFinished: 0
 --- !u!114 &2546777913998916426
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1889,7 +1907,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 9
   indentLevel: 0
-  text: Deny Jack the Jester his wish
+  text: Deny Jackrabbit the Jester his wish
   description: 
   targetBlock: {fileID: 2546777913998916466}
   hideIfVisited: 0
@@ -1914,7 +1932,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 7
   indentLevel: 0
-  text: Grant Jack the Jester his wish
+  text: Grant Jackrabbit the Jester his wish
   description: 
   targetBlock: {fileID: 2546777913998916467}
   hideIfVisited: 0
@@ -2055,6 +2073,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 2546777913998916430}
   - {fileID: 2546777913998916428}
+  - {fileID: 2546777913998916425}
 --- !u!114 &2546777913998916469
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2096,7 +2115,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -297.3093, y: 85.09445}
+  scrollPos: {x: 156.94601, y: 175.51996}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -2107,8 +2126,10 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 2546777913998916468}
+  selectedCommands:
+  - {fileID: 2546777913998916425}
   variables: []
   description: 
   stepPause: 0

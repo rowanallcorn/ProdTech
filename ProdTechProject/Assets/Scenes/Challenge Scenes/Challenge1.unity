@@ -297,7 +297,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 2546777912215271185}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: b75a0cd5fb46cb94e863d584af9a4ffe, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -365,7 +365,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: b9060562af243c44b999dbe311f0cc0b, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -392,7 +392,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: e087412af3cf3894db36a2c373c61329, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -1777,7 +1777,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -297.3093, y: 85.09445}
+  scrollPos: {x: 302.69064, y: 234.03061}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -1788,8 +1788,10 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 2546777912424896734}
+  selectedCommands:
+  - {fileID: 2546777912424896750}
   variables: []
   description: 
   stepPause: 0
@@ -1828,6 +1830,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 2546777912424896740}
   - {fileID: 2546777912424896742}
+  - {fileID: 2546777912424896750}
 --- !u!114 &2546777912424896735
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1992,6 +1995,7 @@ GameObject:
   - component: {fileID: 472951812}
   - component: {fileID: 472951818}
   - component: {fileID: 472951822}
+  - component: {fileID: 2546777912424896750}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1999,6 +2003,23 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &2546777912424896750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2546777912424896749}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 25
+  indentLevel: 0
+  soundClip: {fileID: 8300000, guid: c0536bc70b986b548a67a50d1935be00, type: 3}
+  volume: 1
+  waitUntilFinished: 0
 --- !u!4 &2546777912685342864
 Transform:
   m_ObjectHideFlags: 0
