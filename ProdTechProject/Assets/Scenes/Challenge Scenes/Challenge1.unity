@@ -1595,8 +1595,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 613.8099
-    y: -28.095716
+    x: 599.1758
+    y: -25.656689
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1623,8 +1623,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 879.78894
-    y: 77.09182
+    x: 983.325
+    y: 64.55523
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1648,11 +1648,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -362.15125, y: 99.365234}
+  scrollPos: {x: -239.51184, y: 81.56037}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.8200002
+  zoom: 1
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -1660,9 +1660,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 2546777912424896728}
+  - {fileID: 2546777912424896734}
   selectedCommands:
-  - {fileID: 472951812}
+  - {fileID: 2546777912424896742}
   variables: []
   description: 
   stepPause: 0
@@ -1801,7 +1801,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 7
   indentLevel: 0
-  text: Release Ribbidsford
+  text: 1. Release Ribbidsford
   description: 
   targetBlock: {fileID: 2546777912424896729}
   hideIfVisited: 0
@@ -1826,7 +1826,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 9
   indentLevel: 0
-  text: Put Ribbidsford in prison
+  text: 2. Put Ribbidsford in prison
   description: 
   targetBlock: {fileID: 2546777912424896728}
   hideIfVisited: 0

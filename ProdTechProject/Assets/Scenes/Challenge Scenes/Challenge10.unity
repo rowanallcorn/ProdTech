@@ -1534,8 +1534,10 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 2546777912483952580}
+  selectedCommands:
+  - {fileID: 2546777912483952636}
   variables: []
   description: 
   stepPause: 0
@@ -1652,7 +1654,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 9
   indentLevel: 0
-  text: Do not attend and execute them all
+  text: 2. Do not attend and execute them all
   description: 
   targetBlock: {fileID: 2546777912483952578}
   hideIfVisited: 0
@@ -1677,7 +1679,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 7
   indentLevel: 0
-  text: Join them
+  text: 1. Join them at the tavern
   description: 
   targetBlock: {fileID: 2546777912483952579}
   hideIfVisited: 0

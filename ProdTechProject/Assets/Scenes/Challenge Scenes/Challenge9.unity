@@ -1556,8 +1556,10 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 2546777912483952580}
+  selectedCommands:
+  - {fileID: 2546777912483952636}
   variables: []
   description: 
   stepPause: 0
@@ -1674,7 +1676,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 9
   indentLevel: 0
-  text: Execute the guard
+  text: 2. Execute the guard
   description: 
   targetBlock: {fileID: 2546777912483952578}
   hideIfVisited: 0
@@ -1699,7 +1701,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 7
   indentLevel: 0
-  text: Exile Meowington III
+  text: 1. Exile Meowington III
   description: 
   targetBlock: {fileID: 2546777912483952579}
   hideIfVisited: 0

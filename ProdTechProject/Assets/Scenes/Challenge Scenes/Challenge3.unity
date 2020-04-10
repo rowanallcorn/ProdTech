@@ -1755,9 +1755,9 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 155474315}
   - {fileID: 155474312}
   - {fileID: 155474306}
-  - {fileID: 155474315}
   - {fileID: 2546777913141667242}
 --- !u!114 &2546777913141667219
 MonoBehaviour:
@@ -1773,7 +1773,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 616.78845
+    x: 615.6896
     y: 146.45695
     width: 120
     height: 40
@@ -1856,7 +1856,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -266.82132, y: 83.60184}
+  scrollPos: {x: -342.64554, y: 93.49194}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -1868,9 +1868,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 2546777913141667219}
+  - {fileID: 2546777913141667221}
   selectedCommands:
-  - {fileID: 155474303}
+  - {fileID: 2546777913141667245}
   variables: []
   description: 
   stepPause: 0
@@ -1921,7 +1921,7 @@ GameObject:
   m_IsActive: 1
 --- !u!114 &2546777913141667239
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2006,7 +2006,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 9
   indentLevel: 0
-  text: Bigger, less purple eggplant
+  text: 2. Bigger, less purple eggplant
   description: 
   targetBlock: {fileID: 2546777913141667219}
   hideIfVisited: 0
@@ -2052,7 +2052,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 7
   indentLevel: 0
-  text: Smaller, more purple eggplant
+  text: 1. Smaller, more purple eggplant
   description: 
   targetBlock: {fileID: 2546777913141667218}
   hideIfVisited: 0

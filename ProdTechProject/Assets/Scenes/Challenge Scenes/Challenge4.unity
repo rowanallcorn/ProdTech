@@ -1856,7 +1856,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 9
   indentLevel: 0
-  text: Deny Jackrabbit the Jester his wish
+  text: 2. Deny Jackrabbit the Jester his wish
   description: 
   targetBlock: {fileID: 2546777913998916466}
   hideIfVisited: 0
@@ -1881,7 +1881,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 7
   indentLevel: 0
-  text: Grant Jackrabbit the Jester his wish
+  text: 1. Grant Jackrabbit the Jester his wish
   description: 
   targetBlock: {fileID: 2546777913998916467}
   hideIfVisited: 0
@@ -2076,9 +2076,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 2546777913998916466}
+  - {fileID: 2546777913998916468}
   selectedCommands:
-  - {fileID: 2120353898}
+  - {fileID: 2546777913998916428}
   variables: []
   description: 
   stepPause: 0

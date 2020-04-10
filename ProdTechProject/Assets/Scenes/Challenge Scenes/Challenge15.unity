@@ -1670,8 +1670,10 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 2546777912483952580}
+  selectedCommands:
+  - {fileID: 2546777912483952637}
   variables: []
   description: 
   stepPause: 0
@@ -1814,7 +1816,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 9
   indentLevel: 0
-  text: Make Cathy pay double
+  text: 2. Make Cathy pay double
   description: 
   targetBlock: {fileID: 2546777912483952578}
   hideIfVisited: 0
@@ -1839,7 +1841,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 8
   indentLevel: 0
-  text: Execute Cathy
+  text: 3. Execute Cathy
   description: 
   targetBlock: {fileID: 2546777912483952577}
   hideIfVisited: 0
@@ -1864,7 +1866,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 7
   indentLevel: 0
-  text: Don't help Jackrabbit
+  text: 1. Don't help Jackrabbit
   description: 
   targetBlock: {fileID: 2546777912483952579}
   hideIfVisited: 0
