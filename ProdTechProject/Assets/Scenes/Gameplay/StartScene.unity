@@ -765,7 +765,7 @@ GameObject:
   - component: {fileID: 1477874254}
   - component: {fileID: 1477874253}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Title
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -923,7 +923,7 @@ GameObject:
   - component: {fileID: 1554768724}
   - component: {fileID: 1554768723}
   m_Layer: 0
-  m_Name: Spr_Outdoors_2
+  m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -998,7 +998,7 @@ GameObject:
   - component: {fileID: 1576825179}
   - component: {fileID: 1576825178}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Flag
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
