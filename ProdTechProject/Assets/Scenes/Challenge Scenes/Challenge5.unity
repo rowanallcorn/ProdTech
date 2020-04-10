@@ -1673,7 +1673,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 2546777912483952580}
   selectedCommands:
-  - {fileID: 2546777912483952637}
+  - {fileID: 2546777912483952640}
   variables: []
   description: 
   stepPause: 0
@@ -1915,7 +1915,7 @@ MonoBehaviour:
   indentLevel: 0
   soundClip: {fileID: 8300000, guid: 858916e72614da0419c20d8cacfae4c1, type: 3}
   volume: 1
-  waitUntilFinished: 0
+  waitUntilFinished: 1
 --- !u!1 &2546777912760377222
 GameObject:
   m_ObjectHideFlags: 0

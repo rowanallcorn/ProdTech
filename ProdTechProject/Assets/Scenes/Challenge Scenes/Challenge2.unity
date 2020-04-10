@@ -2004,7 +2004,7 @@ MonoBehaviour:
   indentLevel: 0
   soundClip: {fileID: 8300000, guid: 8a18439f0180caa44913b11ea92ac124, type: 3}
   volume: 1
-  waitUntilFinished: 0
+  waitUntilFinished: 1
 --- !u!114 &2546777912631761243
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2255,7 +2255,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -301.5647, y: 5.307266}
+  scrollPos: {x: -611.1391, y: 10.626424}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -2267,7 +2267,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1208746142}
+  - {fileID: 2546777912631761262}
   selectedCommands: []
   variables: []
   description: 

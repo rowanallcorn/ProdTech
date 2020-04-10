@@ -1799,7 +1799,7 @@ MonoBehaviour:
   indentLevel: 0
   soundClip: {fileID: 8300000, guid: 47b31e579ee0fa8458a0830f5610fdbf, type: 3}
   volume: 1
-  waitUntilFinished: 0
+  waitUntilFinished: 1
 --- !u!114 &2546777913998916426
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2078,7 +2078,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 2546777913998916468}
   selectedCommands:
-  - {fileID: 2546777913998916428}
+  - {fileID: 2546777913998916425}
   variables: []
   description: 
   stepPause: 0

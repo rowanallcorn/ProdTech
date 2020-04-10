@@ -1624,7 +1624,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 983.325
-    y: 64.55523
+    y: 65.55523
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1648,7 +1648,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -485.51184, y: -9.439629}
+  scrollPos: {x: -276.51184, y: 48.56037}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -1659,8 +1659,7 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 2546777912424896735}
+  selectedBlocks: []
   selectedCommands: []
   variables: []
   description: 
@@ -1889,7 +1888,7 @@ MonoBehaviour:
   indentLevel: 0
   soundClip: {fileID: 8300000, guid: c0536bc70b986b548a67a50d1935be00, type: 3}
   volume: 1
-  waitUntilFinished: 0
+  waitUntilFinished: 1
 --- !u!4 &2546777912685342864
 Transform:
   m_ObjectHideFlags: 0
