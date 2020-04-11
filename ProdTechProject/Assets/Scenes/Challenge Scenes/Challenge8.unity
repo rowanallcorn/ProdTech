@@ -1684,7 +1684,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 9
   indentLevel: 0
-  text: 2. Let him perform for you
+  text: Let him perform for you
   description: 
   targetBlock: {fileID: 2546777912483952578}
   hideIfVisited: 0
@@ -1709,7 +1709,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 7
   indentLevel: 0
-  text: 1. Don't let him perform for you
+  text: Don't let him perform for you
   description: 
   targetBlock: {fileID: 2546777912483952579}
   hideIfVisited: 0

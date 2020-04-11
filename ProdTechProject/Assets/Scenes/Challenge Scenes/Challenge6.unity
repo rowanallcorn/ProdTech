@@ -1867,7 +1867,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 9
   indentLevel: 0
-  text: 2. Kill Meowington IV
+  text: Kill Meowington IV
   description: 
   targetBlock: {fileID: 2546777912483952578}
   hideIfVisited: 0
@@ -1892,7 +1892,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 8
   indentLevel: 0
-  text: 3. Release Meowington IV
+  text: Release Meowington IV
   description: 
   targetBlock: {fileID: 2546777912483952577}
   hideIfVisited: 0
@@ -1917,7 +1917,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 7
   indentLevel: 0
-  text: 1. Exile Meowington IV
+  text: Exile Meowington IV
   description: 
   targetBlock: {fileID: 2546777912483952579}
   hideIfVisited: 0

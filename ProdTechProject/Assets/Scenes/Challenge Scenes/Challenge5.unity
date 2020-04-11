@@ -1673,7 +1673,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 2546777912483952580}
   selectedCommands:
-  - {fileID: 2546777912483952640}
+  - {fileID: 2546777912483952637}
   variables: []
   description: 
   stepPause: 0
@@ -1817,7 +1817,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 9
   indentLevel: 0
-  text: 2. Accept and try it
+  text: Accept and try it
   description: 
   targetBlock: {fileID: 2546777912483952578}
   hideIfVisited: 0
@@ -1842,7 +1842,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 8
   indentLevel: 0
-  text: 3. Accept but do not try it
+  text: Accept but do not try it
   description: 
   targetBlock: {fileID: 2546777912483952577}
   hideIfVisited: 0
@@ -1867,7 +1867,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 7
   indentLevel: 0
-  text: 1. Kill Meowington V
+  text: Kill Meowington V
   description: 
   targetBlock: {fileID: 2546777912483952579}
   hideIfVisited: 0

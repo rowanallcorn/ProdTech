@@ -2056,7 +2056,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 9
   indentLevel: 0
-  text: 2. Put Tom in prison
+  text: Put Tom in prison
   description: 
   targetBlock: {fileID: 2546777912483952578}
   hideIfVisited: 0
@@ -2081,7 +2081,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 7
   indentLevel: 0
-  text: 1. Release Tom
+  text: Release Tom
   description: 
   targetBlock: {fileID: 2546777912483952579}
   hideIfVisited: 0

@@ -1659,8 +1659,10 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 2546777912424896734}
+  selectedCommands:
+  - {fileID: 2546777912424896742}
   variables: []
   description: 
   stepPause: 0
@@ -1799,7 +1801,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 7
   indentLevel: 0
-  text: 1. Release Ribbidsford
+  text: Release Ribbidsford
   description: 
   targetBlock: {fileID: 2546777912424896729}
   hideIfVisited: 0
@@ -1824,7 +1826,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 9
   indentLevel: 0
-  text: 2. Put Ribbidsford in prison
+  text: Put Ribbidsford in prison
   description: 
   targetBlock: {fileID: 2546777912424896728}
   hideIfVisited: 0

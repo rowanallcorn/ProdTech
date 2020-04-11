@@ -1870,7 +1870,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 2546777913141667221}
   selectedCommands:
-  - {fileID: 2546777913141667239}
+  - {fileID: 2546777913141667245}
   variables: []
   description: 
   stepPause: 0
@@ -2006,7 +2006,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 9
   indentLevel: 0
-  text: 2. Bigger, less purple eggplant
+  text: Bigger, less purple eggplant
   description: 
   targetBlock: {fileID: 2546777913141667219}
   hideIfVisited: 0
@@ -2052,7 +2052,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 7
   indentLevel: 0
-  text: 1. Smaller, more purple eggplant
+  text: Smaller, more purple eggplant
   description: 
   targetBlock: {fileID: 2546777913141667218}
   hideIfVisited: 0

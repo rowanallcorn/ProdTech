@@ -1704,7 +1704,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 9
   indentLevel: 0
-  text: 2. Purple cape
+  text: Purple cape
   description: 
   targetBlock: {fileID: 2546777912483952578}
   hideIfVisited: 0
@@ -1729,7 +1729,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 7
   indentLevel: 0
-  text: 1. Pink cape
+  text: Pink cape
   description: 
   targetBlock: {fileID: 2546777912483952579}
   hideIfVisited: 0

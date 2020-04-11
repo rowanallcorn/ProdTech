@@ -1039,7 +1039,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 26
   indentLevel: 0
-  text: 4. Kill the Guard
+  text: Kill the Guard
   description: 
   targetBlock: {fileID: 1208746142}
   hideIfVisited: 0
@@ -1780,7 +1780,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 7
   indentLevel: 0
-  text: 1. Release Purrly
+  text: Release Purrly
   description: 
   targetBlock: {fileID: 2546777912631761261}
   hideIfVisited: 0
@@ -1826,7 +1826,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 9
   indentLevel: 0
-  text: 2. Publicly humiliate Purrly
+  text: Publicly humiliate Purrly
   description: 
   targetBlock: {fileID: 2546777912631761260}
   hideIfVisited: 0
@@ -1851,7 +1851,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 8
   indentLevel: 0
-  text: 3. Kill Purrly
+  text: Kill Purrly
   description: 
   targetBlock: {fileID: 2546777912631761263}
   hideIfVisited: 0
@@ -2255,7 +2255,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -611.1391, y: 10.626424}
+  scrollPos: {x: -309.0114, y: 11.690255}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -2267,8 +2267,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 2546777912631761262}
-  selectedCommands: []
+  - {fileID: 2546777912631761258}
+  selectedCommands:
+  - {fileID: 1208746140}
   variables: []
   description: 
   stepPause: 0
