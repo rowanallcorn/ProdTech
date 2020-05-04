@@ -1061,7 +1061,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 21
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
@@ -1089,8 +1089,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 345, y: 173.1}
-  m_SizeDelta: {x: 100, y: 27}
+  m_AnchoredPosition: {x: 297.4, y: 135.4}
+  m_SizeDelta: {x: 193, y: 50.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2478804327700966595
 GameObject:
@@ -1203,8 +1203,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2478804328125141508}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 340, y: 180.1, z: 0}
-  m_LocalScale: {x: 20, y: 20, z: 20}
+  m_LocalPosition: {x: 287.8, y: 148.4, z: 0}
+  m_LocalScale: {x: 38, y: 38, z: 20}
   m_Children: []
   m_Father: {fileID: 2478804328626504941}
   m_RootOrder: 0
@@ -1225,8 +1225,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 345, y: 155}
-  m_SizeDelta: {x: 100, y: 24.2}
+  m_AnchoredPosition: {x: 297.4, y: 101.8}
+  m_SizeDelta: {x: 193, y: 45}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2478804328532705005
 GameObject:
@@ -1276,7 +1276,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 21
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
@@ -1412,7 +1412,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 21
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
@@ -1440,8 +1440,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 345, y: 199.1}
-  m_SizeDelta: {x: 100, y: 17}
+  m_AnchoredPosition: {x: 297.4, y: 183.7}
+  m_SizeDelta: {x: 193, y: 31.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2478804328963806334
 GameObject:
@@ -1660,9 +1660,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 2546777912424896734}
-  selectedCommands:
-  - {fileID: 2546777912424896742}
+  - {fileID: 2546777912424896728}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0

@@ -53,7 +53,17 @@ public class VariableAffects : MonoBehaviour
         if (prestigeValue + prestigeChange > 10) { prestigeValue = 10; }
         else prestigeValue = prestigeValue+ prestigeChange;
         if (beetrootValue + beetrootChange > 10) { beetrootValue = 10; }
-        else beetrootValue = beetrootValue+ beetrootChange; 
+        else beetrootValue = beetrootValue+ beetrootChange;
+
+        //run any animations for the numbers changing to correspond to the changes 
+        if (moneyChange > 0) { AnimateGood(money); }
+        else if (moneyChange < 0) { AnimateBad(money); }
+
+        if (prestigeChange > 0) { AnimateGood(prestige); }
+        else if (prestigeChange < 0) { AnimateBad(prestige); }
+
+        if (beetrootChange > 0) { AnimateGood(beetroot); }
+        else if (beetrootChange < 0) { AnimateBad(beetroot); }
 
         //set UI elements to correspond to changes
         money.text = ("Money: " + moneyValue + "/10");
@@ -79,5 +89,17 @@ public class VariableAffects : MonoBehaviour
         PlayerPrefs.SetInt("beetroot", beetrootValue);
 
     }
+
+    public void AnimateGood(Text affectedStat)
+    { affectedStat.color = new Color(0, .5F, .2F);
+        affectedStat.fontSize = affectedStat.fontSize + 1; 
+    }
+
+    public void AnimateBad(Text affectedStat)
+    {
+        affectedStat.color = Color.red;
+        affectedStat.fontSize = affectedStat.fontSize -1;
+    }
+
 
 }
